@@ -67,6 +67,46 @@ GUARDRAIL is structured into five hierarchical security layers:
 - Anomaly Detection: Identifies suspicious patterns
 - Tamper-Evident Records: Creates immutable audit trails
 
+## Visualizations and Diagrams
+
+The following diagrams provide visual representations of GUARDRAIL's architecture, deployment models, and internal components. These visualizations aid in understanding the system's structure and operation.
+
+- **Embedded Deployment Model:**
+  ![Embedded Deployment Model](svgImages/6.png)
+
+- **Gateway Deployment Model:**
+  ![Gateway Deployment Model](svgImages/8.png)
+
+- **Gateway Internal Architecture:**
+    ![Gateway Internal Architecture](svgImages/9.png)
+
+- **Service Mesh Deployment Model (First Instance):**
+   ![Service Mesh Deployment Model](svgImages/3.png)
+   
+- **Service Mesh Deployment Model (Duplicate Instance):**
+   ![Service Mesh Deployment Model](svgImages/7.png)
+- **Gateway Deployment Model (Duplicate Instance):**
+   ![Gateway Deployment Model](svgImages/5.png)
+- **Gateway Internal Architecture (Duplicate instance):**
+   ![Gateway Internal Architecture](svgImages/4.png)
+
+- **Gateway Data Flow Architecture:**
+  ![Gateway Data Flow Architecture](svgImages/10.png)
+
+- **Gateway 19" Rack Appliance Interface:**
+  ![Gateway 19 Rack Appliance Interface](svgImages/11.png)
+
+- **Sidecar Internal Architecture:**
+  ![Sidecar Internal Architecture](svgImages/12.png)
+
+- **Service Mesh Containerized Architecture:**
+  ![Service Mesh Containerized Architecture](svgImages/13.png)
+
+- **Service Mesh Control Plane Architecture:**
+  ![Service Mesh Control Plane Architecture](svgImages/14.png)
+
+
+
 ## Integration with MCP
 
 GUARDRAIL integrates with the Model Context Protocol (MCP) to provide security for LLM applications:
