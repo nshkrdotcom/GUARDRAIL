@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0A2F51">SHIELD Emergency Response Workflow</text>
+  <text x="450" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#0A2F51">Operational Flow and System Integration</text>
+
+  <!-- Main Workflow -->
+  <g transform="translate(70, 100)">
+    <!-- Phases with gradient backgrounds -->
+    <defs>
+      <linearGradient id="phaseGradient1" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#E5F4E7" />
+        <stop offset="100%" stop-color="#D0E8D3" />
+      </linearGradient>
+      <linearGradient id="phaseGradient2" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#F4E5E7" />
+        <stop offset="100%" stop-color="#E8D0D3" />
+      </linearGradient>
+      <linearGradient id="phaseGradient3" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#E5ECF4" />
+        <stop offset="100%" stop-color="#D0D8E8" />
+      </linearGradient>
+      <linearGradient id="phaseGradient4" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#F2E5F4" />
+        <stop offset="100%" stop-color="#E0D0E8" />
+      </linearGradient>
+    </defs>
+    
+    <!-- Phase 1: Detection -->
+    <rect x="0" y="0" width="760" height="80" rx="5" fill="url(#phaseGradient1)" stroke="#48AA55" stroke-width="2" />
+    <text x="380" y="25" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Phase 1: Detection</text>
+    
+    <rect x="20" y="35" width="170" height="35" rx="5" fill="white" stroke="#48AA55" stroke-width="1" />
+    <text x="105" y="57" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Automated Monitoring</text>
+    
+    <rect x="210" y="35" width="170" height="35" rx="5" fill="white" stroke="#48AA55" stroke-width="1" />
+    <text x="295" y="57" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Threat Classification</text>
+    
+    <rect x="400" y="35" width="170" height="35" rx="5" fill="white" stroke="#48AA55" stroke-width="1" />
+    <text x="485" y="57" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Severity Assessment</text>
+    
+    <rect x="590" y="35" width="150" height="35" rx="5" fill="white" stroke="#48AA55" stroke-width="1" />
+    <text x="665" y="57" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Initial Alert</text>
+    
+    <!-- Integration Points for Phase 1 -->
+    <g transform="translate(20, 80)">
+      <rect x="0" y="0" width="720" height="30" rx="3" fill="#E9F5EA" stroke="#48AA55" stroke-width="1" stroke-dasharray="3,3" />
+      <text x="10" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">Integration: </text>
+      <text x="80" y="20" font-family="Arial, sans-serif" font-size="12" fill="#48AA55">SIEM</text>
+      <text x="120" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="135" y="20" font-family="Arial, sans-serif" font-size="12" fill="#48AA55">Threat Intelligence</text>
+      <text x="250" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="265" y="20" font-family="Arial, sans-serif" font-size="12" fill="#48AA55">Behavioral Analytics</text>
+      <text x="385" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="400" y="20" font-family="Arial, sans-serif" font-size="12" fill="#48AA55">EDR/NDR</text>
+      <text x="460" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="475" y="20" font-family="Arial, sans-serif" font-size="12" fill="#48AA55">Vulnerability Management</text>
+    </g>
+    
+    <!-- Phase 2: Response -->
+    <rect x="0" y="120" width="760" height="80" rx="5" fill="url(#phaseGradient2)" stroke="#C54B4B" stroke-width="2" />
+    <text x="380" y="145" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Phase 2: Response</text>
+    
+    <rect x="20" y="155" width="170" height="35" rx="5" fill="white" stroke="#C54B4B" stroke-width="1" />
+    <text x="105" y="177" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Activate Response Team</text>
+    
+    <rect x="210" y="155" width="170" height="35" rx="5" fill="white" stroke="#C54B4B" stroke-width="1" />
+    <text x="295" y="177" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Execute Playbook</text>
+    
+    <rect x="400" y="155" width="170" height="35" rx="5" fill="white" stroke="#C54B4B" stroke-width="1" />
+    <text x="485" y="177" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Containment Actions</text>
+    
+    <rect x="590" y="155" width="150" height="35" rx="5" fill="white" stroke="#C54B4B" stroke-width="1" />
+    <text x="665" y="177" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Status Updates</text>
+    
+    <!-- Integration Points for Phase 2 -->
+    <g transform="translate(20, 200)">
+      <rect x="0" y="0" width="720" height="30" rx="3" fill="#F5E9EA" stroke="#C54B4B" stroke-width="1" stroke-dasharray="3,3" />
+      <text x="10" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">Integration: </text>
+      <text x="80" y="20" font-family="Arial, sans-serif" font-size="12" fill="#C54B4B">SOAR Platform</text>
+      <text x="165" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="180" y="20" font-family="Arial, sans-serif" font-size="12" fill="#C54B4B">Ticketing System</text>
+      <text x="280" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="295" y="20" font-family="Arial, sans-serif" font-size="12" fill="#C54B4B">Communication Tools</text>
+      <text x="425" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="440" y="20" font-family="Arial, sans-serif" font-size="12" fill="#C54B4B">Access Management</text>
+    </g>
+    
+    <!-- Phase 3: Remediation -->
+    <rect x="0" y="240" width="760" height="80" rx="5" fill="url(#phaseGradient3)" stroke="#0A2F51" stroke-width="2" />
+    <text x="380" y="265" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Phase 3: Remediation</text>
+    
+    <rect x="20" y="275" width="170" height="35" rx="5" fill="white" stroke="#0A2F51" stroke-width="1" />
+    <text x="105" y="297" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Investigation</text>
+    
+    <rect x="210" y="275" width="170" height="35" rx="5" fill="white" stroke="#0A2F51" stroke-width="1" />
+    <text x="295" y="297" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Patch/Mitigate</text>
+    
+    <rect x="400" y="275" width="170" height="35" rx="5" fill="white" stroke="#0A2F51" stroke-width="1" />
+    <text x="485" y="297" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Verify Remediation</text>
+    
+    <rect x="590" y="275" width="150" height="35" rx="5" fill="white" stroke="#0A2F51" stroke-width="1" />
+    <text x="665" y="297" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Prepare for Recovery</text>
+    
+    <!-- Integration Points for Phase 3 -->
+    <g transform="translate(20, 320)">
+      <rect x="0" y="0" width="720" height="30" rx="3" fill="#E9ECF5" stroke="#0A2F51" stroke-width="1" stroke-dasharray="3,3" />
+      <text x="10" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">Integration: </text>
+      <text x="80" y="20" font-family="Arial, sans-serif" font-size="12" fill="#0A2F51">Forensic Tools</text>
+      <text x="165" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="180" y="20" font-family="Arial, sans-serif" font-size="12" fill="#0A2F51">Patch Management</text>
+      <text x="295" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="310" y="20" font-family="Arial, sans-serif" font-size="12" fill="#0A2F51">Configuration Management</text>
+      <text x="460" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="475" y="20" font-family="Arial, sans-serif" font-size="12" fill="#0A2F51">Backup Systems</text>
+    </g>
+    
+    <!-- Phase 4: Recovery -->
+    <rect x="0" y="360" width="760" height="80" rx="5" fill="url(#phaseGradient4)" stroke="#6E48AA" stroke-width="2" />
+    <text x="380" y="385" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#333">Phase 4: Recovery</text>
+    
+    <rect x="20" y="395" width="170" height="35" rx="5" fill="white" stroke="#6E48AA" stroke-width="1" />
+    <text x="105" y="417" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Business Approval</text>
+    
+    <rect x="210" y="395" width="170" height="35" rx="5" fill="white" stroke="#6E48AA" stroke-width="1" />
+    <text x="295" y="417" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Phased Restoration</text>
+    
+    <rect x="400" y="395" width="170" height="35" rx="5" fill="white" stroke="#6E48AA" stroke-width="1" />
+    <text x="485" y="417" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">System Verification</text>
+    
+    <rect x="590" y="395" width="150" height="35" rx="5" fill="white" stroke="#6E48AA" stroke-width="1" />
+    <text x="665" y="417" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="#333">Post-Mortem</text>
+    
+    <!-- Integration Points for Phase 4 -->
+    <g transform="translate(20, 440)">
+      <rect x="0" y="0" width="720" height="30" rx="3" fill="#F2E9F5" stroke="#6E48AA" stroke-width="1" stroke-dasharray="3,3" />
+      <text x="10" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">Integration: </text>
+      <text x="80" y="20" font-family="Arial, sans-serif" font-size="12" fill="#6E48AA">ITSM/CMDB</text>
+      <text x="165" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="180" y="20" font-family="Arial, sans-serif" font-size="12" fill="#6E48AA">Compliance Reporting</text>
+      <text x="310" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="325" y="20" font-family="Arial, sans-serif" font-size="12" fill="#6E48AA">Business Continuity</text>
+      <text x="445" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">|</text>
+      <text x="460" y="20" font-family="Arial, sans-serif" font-size="12" fill="#6E48AA">Knowledge Management</text>
+    </g>
+    
+    <!-- Arrows connecting phases -->
+    <defs>
+      <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="0" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="#666" />
+      </marker>
+    </defs>
+    
+    <line x1="380" y1="80" x2="380" y2="120" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)" />
+    <line x1="380" y1="200" x2="380" y2="240" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)" />
+    <line x1="380" y1="320" x2="380" y2="360" stroke="#666" stroke-width="2" marker-end="url(#arrowhead)" />
+    
+    <!-- Feedback loop -->
+    <path d="M 740 400 C 790 400, 790 100, 740 100" fill="none" stroke="#666" stroke-width="2" stroke-dasharray="5,5" marker-end="url(#arrowhead)" />
+    <text x="800" y="250" font-family="Arial, sans-serif" font-size="14" fill="#666" transform="rotate(90, 800, 250)">Continuous Improvement</text>
+  </g>

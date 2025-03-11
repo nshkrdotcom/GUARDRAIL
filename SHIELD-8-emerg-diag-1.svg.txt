@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0A2F51">SHIELD Emergency Response Framework</text>
+  <text x="450" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#0A2F51">Enterprise Implementation Overview</text>
+
+  <!-- Tiered Response Levels -->
+  <g transform="translate(100, 120)">
+    <!-- Level shapes with gradient fills -->
+    <defs>
+      <linearGradient id="level1Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#D4EBF2" />
+        <stop offset="100%" stop-color="#AFD5EB" />
+      </linearGradient>
+      <linearGradient id="level2Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#B5DAEA" />
+        <stop offset="100%" stop-color="#8EC1E8" />
+      </linearGradient>
+      <linearGradient id="level3Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#92C4DE" />
+        <stop offset="100%" stop-color="#6FAEE0" />
+      </linearGradient>
+      <linearGradient id="level4Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#6FAAD2" />
+        <stop offset="100%" stop-color="#4B96D2" />
+      </linearGradient>
+      <linearGradient id="level5Gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+        <stop offset="0%" stop-color="#4B90C5" />
+        <stop offset="100%" stop-color="#0A2F51" />
+      </linearGradient>
+    </defs>
+
+    <!-- Level 1: Monitoring -->
+    <rect x="0" y="0" width="700" height="60" rx="5" fill="url(#level1Gradient)" stroke="#0A2F51" stroke-width="1" />
+    <text x="20" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0A2F51">Level 1: Monitoring</text>
+    <text x="220" y="30" font-family="Arial, sans-serif" font-size="14" fill="#0A2F51">Low-level anomalies | Full automation | Minimal business impact</text>
+    <text x="650" y="30" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#0A2F51">Ops Team</text>
+
+    <!-- Level 2: Restriction -->
+    <rect x="0" y="70" width="700" height="60" rx="5" fill="url(#level2Gradient)" stroke="#0A2F51" stroke-width="1" />
+    <text x="20" y="100" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0A2F51">Level 2: Restriction</text>
+    <text x="220" y="100" font-family="Arial, sans-serif" font-size="14" fill="#0A2F51">Rate limiting | Resource restrictions | Minimal isolation</text>
+    <text x="650" y="100" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#0A2F51">Security Team</text>
+
+    <!-- Level 3: Quarantine -->
+    <rect x="0" y="140" width="700" height="60" rx="5" fill="url(#level3Gradient)" stroke="#0A2F51" stroke-width="1" />
+    <text x="20" y="170" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0A2F51">Level 3: Quarantine</text>
+    <text x="220" y="170" font-family="Arial, sans-serif" font-size="14" fill="#0A2F51">Agent isolation | Forensic analysis | Limited business impact</text>
+    <text x="650" y="170" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#0A2F51">Security Manager</text>
+
+    <!-- Level 4: Containment -->
+    <rect x="0" y="210" width="700" height="60" rx="5" fill="url(#level4Gradient)" stroke="#0A2F51" stroke-width="1" />
+    <text x="20" y="240" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">Level 4: Containment</text>
+    <text x="220" y="240" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">System isolation | Incident response team | Moderate business impact</text>
+    <text x="650" y="240" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#ffffff">CISO</text>
+
+    <!-- Level 5: Emergency Shutdown -->
+    <rect x="0" y="280" width="700" height="60" rx="5" fill="url(#level5Gradient)" stroke="#0A2F51" stroke-width="1" />
+    <text x="20" y="310" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#ffffff">Level 5: Emergency Shutdown</text>
+    <text x="220" y="310" font-family="Arial, sans-serif" font-size="14" fill="#ffffff">System-wide protection | Crisis management | Significant business impact</text>
+    <text x="650" y="310" font-family="Arial, sans-serif" font-size="14" text-anchor="end" fill="#ffffff">CEO/CIO</text>
+  </g>
+
+  <!-- Stakeholder Considerations -->
+  <g transform="translate(100, 410)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0A2F51">Key Stakeholder Considerations</text>
+    
+    <g transform="translate(0, 30)">
+      <!-- Compliance -->
+      <rect x="0" y="0" width="160" height="140" rx="5" fill="#F9F0DE" stroke="#BF8C30" stroke-width="1" />
+      <text x="80" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#BF8C30">Compliance</text>
+      <text x="10" y="50" font-family="Arial, sans-serif" font-size="11" fill="#333">• NIST CSF alignment</text>
+      <text x="10" y="70" font-family="Arial, sans-serif" font-size="11" fill="#333">• FedRAMP controls</text>
+      <text x="10" y="90" font-family="Arial, sans-serif" font-size="11" fill="#333">• SOC 2 requirements</text>
+      <text x="10" y="110" font-family="Arial, sans-serif" font-size="11" fill="#333">• Evidence collection</text>
+      <text x="10" y="130" font-family="Arial, sans-serif" font-size="11" fill="#333">• Audit documentation</text>
+      
+      <!-- Legal -->
+      <rect x="180" y="0" width="160" height="140" rx="5" fill="#F1ECF8" stroke="#6E48AA" stroke-width="1" />
+      <text x="260" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#6E48AA">Legal</text>
+      <text x="190" y="50" font-family="Arial, sans-serif" font-size="11" fill="#333">• Data privacy laws</text>
+      <text x="190" y="70" font-family="Arial, sans-serif" font-size="11" fill="#333">• Breach notification</text>
+      <text x="190" y="90" font-family="Arial, sans-serif" font-size="11" fill="#333">• Contractual obligations</text>
+      <text x="190" y="110" font-family="Arial, sans-serif" font-size="11" fill="#333">• Forensic evidence</text>
+      <text x="190" y="130" font-family="Arial, sans-serif" font-size="11" fill="#333">• Liability protection</text>
+      
+      <!-- Operational -->
+      <rect x="360" y="0" width="160" height="140" rx="5" fill="#E5F4E7" stroke="#48AA55" stroke-width="1" />
+      <text x="440" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#48AA55">Operational</text>
+      <text x="370" y="50" font-family="Arial, sans-serif" font-size="11" fill="#333">• Response SLAs</text>
+      <text x="370" y="70" font-family="Arial, sans-serif" font-size="11" fill="#333">• Staff training</text>
+      <text x="370" y="90" font-family="Arial, sans-serif" font-size="11" fill="#333">• Role assignments</text>
+      <text x="370" y="110" font-family="Arial, sans-serif" font-size="11" fill="#333">• 24/7 coverage</text>
+      <text x="370" y="130" font-family="Arial, sans-serif" font-size="11" fill="#333">• Escalation paths</text>
+      
+      <!-- Business -->
+      <rect x="540" y="0" width="160" height="140" rx="5" fill="#FFEFEF" stroke="#C54B4B" stroke-width="1" />
+      <text x="620" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#C54B4B">Business</text>
+      <text x="550" y="50" font-family="Arial, sans-serif" font-size="11" fill="#333">• Business continuity</text>
+      <text x="550" y="70" font-family="Arial, sans-serif" font-size="11" fill="#333">• Customer impact</text>
+      <text x="550" y="90" font-family="Arial, sans-serif" font-size="11" fill="#333">• Reputation management</text>
+      <text x="550" y="110" font-family="Arial, sans-serif" font-size="11" fill="#333">• Cost of response</text>
+      <text x="550" y="130" font-family="Arial, sans-serif" font-size="11" fill="#333">• Recovery priorities</text>
+    </g>
+  </g>
+</svg>

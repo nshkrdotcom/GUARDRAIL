@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0A2F51">SHIELD Compliance Framework Integration</text>
+  <text x="450" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#0A2F51">Mapping Emergency Response to US Enterprise Compliance Standards</text>
+
+  <!-- Main Content -->
+  <g transform="translate(450, 330)">
+    <!-- Center shield -->
+    <defs>
+      <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#0A2F51" />
+        <stop offset="100%" stop-color="#1A5F8F" />
+      </linearGradient>
+    </defs>
+    
+    <path d="M0,-120 C-80,-120 -120,-100 -120,-60 C-120,20 -70,100 0,180 C70,100 120,20 120,-60 C120,-100 80,-120 0,-120 Z" fill="url(#shieldGradient)" />
+    <text x="0" y="-70" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="white">SHIELD</text>
+    <text x="0" y="-45" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">Emergency</text>
+    <text x="0" y="-25" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="white">Response</text>
+    <text x="0" y="10" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Framework</text>
+    <text x="0" y="60" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Detection • Response</text>
+    <text x="0" y="80" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Containment • Recovery</text>
+    
+    <!-- NIST CSF -->
+    <g transform="translate(-250, 0)">
+      <rect x="-100" y="-80" width="200" height="160" rx="5" fill="#E5F4E7" stroke="#48AA55" stroke-width="2" />
+      <text x="0" y="-55" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#48AA55">NIST CSF</text>
+      <line x1="100" y1="0" x2="150" y2="0" stroke="#48AA55" stroke-width="3" stroke-dasharray="5,3" />
+      
+      <!-- Key mappings -->
+      <rect x="-90" y="-40" width="180" height="25" rx="3" fill="white" stroke="#48AA55" stroke-width="1" />
+      <text x="-80" y="-23" font-family="Arial, sans-serif" font-size="12" fill="#333">Identify (ID.RA-3, ID.RA-5)</text>
+      
+      <rect x="-90" y="-10" width="180" height="25" rx="3" fill="white" stroke="#48AA55" stroke-width="1" />
+      <text x="-80" y="7" font-family="Arial, sans-serif" font-size="12" fill="#333">Detect (DE.AE-2, DE.CM-4)</text>
+      
+      <rect x="-90" y="20" width="180" height="25" rx="3" fill="white" stroke="#48AA55" stroke-width="1" />
+      <text x="-80" y="37" font-family="Arial, sans-serif" font-size="12" fill="#333">Respond (RS.RP-1, RS.MI-1)</text>
+      
+      <rect x="-90" y="50" width="180" height="25" rx="3" fill="white" stroke="#48AA55" stroke-width="1" />
+      <text x="-80" y="67" font-family="Arial, sans-serif" font-size="12" fill="#333">Recover (RC.RP-1, RC.IM-1)</text>
+    </g>
+    
+    <!-- FedRAMP -->
+    <g transform="translate(0, -200)">
+      <rect x="-100" y="-80" width="200" height="160" rx="5" fill="#F1ECF8" stroke="#6E48AA" stroke-width="2" />
+      <text x="0" y="-55" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#6E48AA">FedRAMP</text>
+      <line x1="0" y1="80" x2="0" y2="120" stroke="#6E48AA" stroke-width="3" stroke-dasharray="5,3" />
+      
+      <!-- Key mappings -->
+      <rect x="-90" y="-40" width="180" height="25" rx="3" fill="white" stroke="#6E48AA" stroke-width="1" />
+      <text x="-80" y="-23" font-family="Arial, sans-serif" font-size="12" fill="#333">IR-4: Incident Handling</text>
+      
+      <rect x="-90" y="-10" width="180" height="25" rx="3" fill="white" stroke="#6E48AA" stroke-width="1" />
+      <text x="-80" y="7" font-family="Arial, sans-serif" font-size="12" fill="#333">IR-6: Incident Reporting</text>
+      
+      <rect x="-90" y="20" width="180" height="25" rx="3" fill="white" stroke="#6E48AA" stroke-width="1" />
+      <text x="-80" y="37" font-family="Arial, sans-serif" font-size="12" fill="#333">IR-8: Response Planning</text>
+      
+      <rect x="-90" y="50" width="180" height="25" rx="3" fill="white" stroke="#6E48AA" stroke-width="1" />
+      <text x="-80" y="67" font-family="Arial, sans-serif" font-size="12" fill="#333">CP-10: System Recovery</text>
+    </g>
+    
+    <!-- SOC 2 -->
+    <g transform="translate(250, 0)">
+      <rect x="-100" y="-80" width="200" height="160" rx="5" fill="#FFFAE5" stroke="#BF8C30" stroke-width="2" />
+      <text x="0" y="-55" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#BF8C30">SOC 2</text>
+      <line x1="-100" y1="0" x2="-150" y2="0" stroke="#BF8C30" stroke-width="3" stroke-dasharray="5,3" />
+      
+      <!-- Key mappings -->
+      <rect x="-90" y="-40" width="180" height="25" rx="3" fill="white" stroke="#BF8C30" stroke-width="1" />
+      <text x="-80" y="-23" font-family="Arial, sans-serif" font-size="12" fill="#333">CC7.3: Anomaly Assessment</text>
+      
+      <rect x="-90" y="-10" width="180" height="25" rx="3" fill="white" stroke="#BF8C30" stroke-width="1" />
+      <text x="-80" y="7" font-family="Arial, sans-serif" font-size="12" fill="#333">CC7.4: Incident Response</text>
+      
+      <rect x="-90" y="20" width="180" height="25" rx="3" fill="white" stroke="#BF8C30" stroke-width="1" />
+      <text x="-80" y="37" font-family="Arial, sans-serif" font-size="12" fill="#333">CC7.5: Resolution Activities</text>
+      
+      <rect x="-90" y="50" width="180" height="25" rx="3" fill="white" stroke="#BF8C30" stroke-width="1" />
+      <text x="-80" y="67" font-family="Arial, sans-serif" font-size="12" fill="#333">A1.3: Recovery Plan Testing</text>
+    </g>
+    
+    <!-- CMMC -->
+    <g transform="translate(0, 200)">
+      <rect x="-100" y="-80" width="200" height="160" rx="5" fill="#F4E5E7" stroke="#C54B4B" stroke-width="2" />
+      <text x="0" y="-55" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="#C54B4B">CMMC</text>
+      <line x1="0" y1="-80" x2="0" y2="-120" stroke="#C54B4B" stroke-width="3" stroke-dasharray="5,3" />
+      
+      <!-- Key mappings -->
+      <rect x="-90" y="-40" width="180" height="25" rx="3" fill="white" stroke="#C54B4B" stroke-width="1" />
+      <text x="-80" y="-23" font-family="Arial, sans-serif" font-size="12" fill="#333">IR.2.097: Response Planning</text>
+      
+      <rect x="-90" y="-10" width="180" height="25" rx="3" fill="white" stroke="#C54B4B" stroke-width="1" />
+      <text x="-80" y="7" font-family="Arial, sans-serif" font-size="12" fill="#333">IR.3.099: Response Testing</text>
+      
+      <rect x="-90" y="20" width="180" height="25" rx="3" fill="white" stroke="#C54B4B" stroke-width="1" />
+      <text x="-80" y="37" font-family="Arial, sans-serif" font-size="12" fill="#333">IR.4.101: Incident Handling</text>
+      
+      <rect x="-90" y="50" width="180" height="25" rx="3" fill="white" stroke="#C54B4B" stroke-width="1" />
+      <text x="-80" y="67" font-family="Arial, sans-serif" font-size="12" fill="#333">IR.5.106: Root Cause</text>
+    </g>
+  </g>
+  
+  <!-- Compliance Integration Elements -->
+  <g transform="translate(450, 100)">
+    <rect x="-390" y="-30" width="780" height="40" rx="5" fill="#0A2F51" />
+    <text x="0" y="-5" font-family="Arial, sans-serif" font-size="18" font-weight="bold" text-anchor="middle" fill="white">Implementation Requirements for Regulatory Compliance</text>
+    
+    <!-- Requirements Boxes -->
+    <g transform="translate(-350, 50)">
+      <rect x="-80" y="-25" width="160" height="110" rx="5" fill="#E5F4E7" stroke="#48AA55" stroke-width="2" />
+      <text x="0" y="-5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#48AA55">Documentation</text>
+      <line x1="-70" y1="5" x2="70" y2="5" stroke="#48AA55" stroke-width="1" />
+      
+      <text x="-70" y="25" font-family="Arial, sans-serif" font-size="12" fill="#333">• Written IR Plan</text>
+      <text x="-70" y="45" font-family="Arial, sans-serif" font-size="12" fill="#333">• Response Playbooks</text>
+      <text x="-70" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">• Compliance Mappings</text>
+    </g>
+    
+    <g transform="translate(-175, 50)">
+      <rect x="-80" y="-25" width="160" height="110" rx="5" fill="#F1ECF8" stroke="#6E48AA" stroke-width="2" />
+      <text x="0" y="-5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#6E48AA">Testing</text>
+      <line x1="-70" y1="5" x2="70" y2="5" stroke="#6E48AA" stroke-width="1" />
+      
+      <text x="-70" y="25" font-family="Arial, sans-serif" font-size="12" fill="#333">• Tabletop Exercises</text>
+      <text x="-70" y="45" font-family="Arial, sans-serif" font-size="12" fill="#333">• Full-Scale Drills</text>
+      <text x="-70" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">• Audit Documentation</text>
+    </g>
+    
+    <g transform="translate(0, 50)">
+      <rect x="-80" y="-25" width="160" height="110" rx="5" fill="#FFFAE5" stroke="#BF8C30" stroke-width="2" />
+      <text x="0" y="-5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#BF8C30">Training</text>
+      <line x1="-70" y1="5" x2="70" y2="5" stroke="#BF8C30" stroke-width="1" />
+      
+      <text x="-70" y="25" font-family="Arial, sans-serif" font-size="12" fill="#333">• Role-Based Training</text>
+      <text x="-70" y="45" font-family="Arial, sans-serif" font-size="12" fill="#333">• Executive Education</text>
+      <text x="-70" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">• Annual Certification</text>
+    </g>
+    
+    <g transform="translate(175, 50)">
+      <rect x="-80" y="-25" width="160" height="110" rx="5" fill="#F4E5E7" stroke="#C54B4B" stroke-width="2" />
+      <text x="0" y="-5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#C54B4B">Review</text>
+      <line x1="-70" y1="5" x2="70" y2="5" stroke="#C54B4B" stroke-width="1" />
+      
+      <text x="-70" y="25" font-family="Arial, sans-serif" font-size="12" fill="#333">• Annual Plan Review</text>
+      <text x="-70" y="45" font-family="Arial, sans-serif" font-size="12" fill="#333">• Post-Incident Analysis</text>
+      <text x="-70" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">• Gap Assessment</text>
+    </g>
+    
+    <g transform="translate(350, 50)">
+      <rect x="-80" y="-25" width="160" height="110" rx="5" fill="#E5ECF4" stroke="#0A2F51" stroke-width="2" />
+      <text x="0" y="-5" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0A2F51">Evidence</text>
+      <line x1="-70" y1="5" x2="70" y2="5" stroke="#0A2F51" stroke-width="1" />
+      
+      <text x="-70" y="25" font-family="Arial, sans-serif" font-size="12" fill="#333">• Audit Records</text>
+      <text x="-70" y="45" font-family="Arial, sans-serif" font-size="12" fill="#333">• Test Results</text>
+      <text x="-70" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">• Training Completion</text>
+    </g>
+  </g>
+  
+  <!-- Compliance Footer -->
+  <g transform="translate(450, 540)">
+    <!-- Compliance Legend -->
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0A2F51">Key Compliance Benefits</text>
+    
+    <g transform="translate(-320, 30)">
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#E5F4E7" stroke="#48AA55" stroke-width="1" />
+      <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#48AA55">NIST CSF</text>
+      <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" fill="#333">- Comprehensive security framework recognized across industries</text>
+    </g>
+    
+    <g transform="translate(-320, 60)">
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#F1ECF8" stroke="#6E48AA" stroke-width="1" />
+      <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#6E48AA">FedRAMP</text>
+      <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" fill="#333">- Essential for federal government contracts and cloud services</text>
+    </g>
+    
+    <g transform="translate(160, 30)">
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#FFFAE5" stroke="#BF8C30" stroke-width="1" />
+      <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#BF8C30">SOC 2</text>
+      <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" fill="#333">- Critical for SaaS providers and data handling services</text>
+    </g>
+    
+    <g transform="translate(160, 60)">
+      <rect x="-40" y="-15" width="80" height="30" rx="15" fill="#F4E5E7" stroke="#C54B4B" stroke-width="1" />
+      <text x="0" y="5" font-family="Arial, sans-serif" font-size="12" font-weight="bold" text-anchor="middle" fill="#C54B4B">CMMC</text>
+      <text x="50" y="5" font-family="Arial, sans-serif" font-size="12" fill="#333">- Required for defense industrial base contractors</text>
+    </g>
+  </g>
+</svg>

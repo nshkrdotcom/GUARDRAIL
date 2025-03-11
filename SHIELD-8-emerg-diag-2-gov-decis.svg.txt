@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0A2F51">SHIELD Response Governance Framework</text>
+  <text x="450" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#0A2F51">Decision Authority and Accountability Matrix</text>
+
+  <!-- Decision Authority Matrix -->
+  <g transform="translate(60, 100)">
+    <!-- Header -->
+    <rect x="0" y="0" width="780" height="50" fill="#0A2F51" rx="5" />
+    <text x="140" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Response Level</text>
+    <text x="320" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Decision Authority</text>
+    <text x="500" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Consultation Required</text>
+    <text x="680" y="30" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Notification Timing</text>
+    
+    <!-- Level 1 -->
+    <rect x="0" y="50" width="780" height="60" fill="#D4EBF2" rx="5" stroke="#0A2F51" stroke-width="1" />
+    <text x="10" y="85" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0A2F51">Level 1: Monitoring</text>
+    <text x="220" y="75" font-family="Arial, sans-serif" font-size="14" fill="#333">SOC Analyst</text>
+    <text x="220" y="95" font-family="Arial, sans-serif" font-size="14" fill="#333">Security Engineer</text>
+    <text x="400" y="85" font-family="Arial, sans-serif" font-size="14" fill="#333">None</text>
+    <text x="580" y="85" font-family="Arial, sans-serif" font-size="14" fill="#333">Daily Summary</text>
+    
+    <!-- Level 2 -->
+    <rect x="0" y="110" width="780" height="60" fill="#B5DAEA" rx="5" stroke="#0A2F51" stroke-width="1" />
+    <text x="10" y="145" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0A2F51">Level 2: Restriction</text>
+    <text x="220" y="135" font-family="Arial, sans-serif" font-size="14" fill="#333">Security Team Lead</text>
+    <text x="220" y="155" font-family="Arial, sans-serif" font-size="14" fill="#333">SOC Manager</text>
+    <text x="400" y="145" font-family="Arial, sans-serif" font-size="14" fill="#333">Application Owner</text>
+    <text x="580" y="145" font-family="Arial, sans-serif" font-size="14" fill="#333">Within 2 Hours</text>
+    
+    <!-- Level 3 -->
+    <rect x="0" y="170" width="780" height="60" fill="#92C4DE" rx="5" stroke="#0A2F51" stroke-width="1" />
+    <text x="10" y="205" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="#0A2F51">Level 3: Quarantine</text>
+    <text x="220" y="195" font-family="Arial, sans-serif" font-size="14" fill="#333">Security Director</text>
+    <text x="220" y="215" font-family="Arial, sans-serif" font-size="14" fill="#333">Incident Manager</text>
+    <text x="400" y="195" font-family="Arial, sans-serif" font-size="14" fill="#333">Legal</text>
+    <text x="400" y="215" font-family="Arial, sans-serif" font-size="14" fill="#333">Business Unit Leader</text>
+    <text x="580" y="205" font-family="Arial, sans-serif" font-size="14" fill="#333">Within 1 Hour</text>
+    
+    <!-- Level 4 -->
+    <rect x="0" y="230" width="780" height="60" fill="#6FAAD2" rx="5" stroke="#0A2F51" stroke-width="1" />
+    <text x="10" y="265" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Level 4: Containment</text>
+    <text x="220" y="255" font-family="Arial, sans-serif" font-size="14" fill="white">CISO</text>
+    <text x="220" y="275" font-family="Arial, sans-serif" font-size="14" fill="white">CIO</text>
+    <text x="400" y="255" font-family="Arial, sans-serif" font-size="14" fill="white">Legal</text>
+    <text x="400" y="275" font-family="Arial, sans-serif" font-size="14" fill="white">Compliance/Business Exec</text>
+    <text x="580" y="265" font-family="Arial, sans-serif" font-size="14" fill="white">Immediate</text>
+    
+    <!-- Level 5 -->
+    <rect x="0" y="290" width="780" height="60" fill="#0A2F51" rx="5" />
+    <text x="10" y="325" font-family="Arial, sans-serif" font-size="16" font-weight="bold" fill="white">Level 5: Emergency Shutdown</text>
+    <text x="220" y="315" font-family="Arial, sans-serif" font-size="14" fill="white">CEO</text>
+    <text x="220" y="335" font-family="Arial, sans-serif" font-size="14" fill="white">CIO/CISO</text>
+    <text x="400" y="315" font-family="Arial, sans-serif" font-size="14" fill="white">Board Crisis Committee</text>
+    <text x="400" y="335" font-family="Arial, sans-serif" font-size="14" fill="white">Legal/Compliance/PR</text>
+    <text x="580" y="325" font-family="Arial, sans-serif" font-size="14" fill="white">Immediate; Full Reporting</text>
+  </g>
+
+  <!-- Governance Components -->
+  <g transform="translate(60, 380)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#0A2F51">Governance and Oversight Components</text>
+    
+    <!-- Components -->
+    <g transform="translate(0, 20)">
+      <!-- Governance Documentation -->
+      <rect x="0" y="0" width="370" height="180" rx="5" fill="#F5F5F5" stroke="#666" stroke-width="1" />
+      <text x="185" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0A2F51">Required Governance Documentation</text>
+      
+      <rect x="20" y="40" width="150" height="40" rx="3" fill="#FFFAE5" stroke="#BF8C30" stroke-width="1" />
+      <text x="30" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">Incident Response Plan</text>
+      
+      <rect x="200" y="40" width="150" height="40" rx="3" fill="#E5F4E7" stroke="#48AA55" stroke-width="1" />
+      <text x="210" y="65" font-family="Arial, sans-serif" font-size="12" fill="#333">Decision Authority Matrix</text>
+      
+      <rect x="20" y="90" width="150" height="40" rx="3" fill="#F1ECF8" stroke="#6E48AA" stroke-width="1" />
+      <text x="30" y="115" font-family="Arial, sans-serif" font-size="12" fill="#333">Notification Templates</text>
+      
+      <rect x="200" y="90" width="150" height="40" rx="3" fill="#D4EBF2" stroke="#0A2F51" stroke-width="1" />
+      <text x="210" y="115" font-family="Arial, sans-serif" font-size="12" fill="#333">Response Playbooks</text>
+      
+      <rect x="20" y="140" width="150" height="40" rx="3" fill="#FFEFEF" stroke="#C54B4B" stroke-width="1" />
+      <text x="30" y="165" font-family="Arial, sans-serif" font-size="12" fill="#333">Compliance Mappings</text>
+      
+      <rect x="200" y="140" width="150" height="40" rx="3" fill="#E7F0D2" stroke="#7D993A" stroke-width="1" />
+      <text x="210" y="165" font-family="Arial, sans-serif" font-size="12" fill="#333">Recovery Procedures</text>
+      
+      <!-- Compliance Requirements -->
+      <rect x="410" y="0" width="370" height="180" rx="5" fill="#F5F5F5" stroke="#666" stroke-width="1" />
+      <text x="595" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0A2F51">Regulatory & Compliance Considerations</text>
+      
+      <rect x="430" y="40" width="330" height="30" rx="3" fill="#FFFAE5" stroke="#BF8C30" stroke-width="1" />
+      <text x="440" y="60" font-family="Arial, sans-serif" font-size="12" fill="#333">NIST CSF (RS.CO-1, RS.RP-1, RS.MI-1/2, RC.RP-1)</text>
+      
+      <rect x="430" y="80" width="330" height="30" rx="3" fill="#E5F4E7" stroke="#48AA55" stroke-width="1" />
+      <text x="440" y="100" font-family="Arial, sans-serif" font-size="12" fill="#333">FedRAMP (IR-1, IR-4, IR-6, IR-8)</text>
+      
+      <rect x="430" y="120" width="330" height="30" rx="3" fill="#F1ECF8" stroke="#6E48AA" stroke-width="1" />
+      <text x="440" y="140" font-family="Arial, sans-serif" font-size="12" fill="#333">SOC 2 (CC7.3, CC7.4, CC7.5)</text>
+      
+      <rect x="430" y="160" width="330" height="30" rx="3" fill="#D4EBF2" stroke="#0A2F51" stroke-width="1" />
+      <text x="440" y="180" font-family="Arial, sans-serif" font-size="12" fill="#333">CMMC (IR.2.097, IR.3.099, IR.4.101, IR.5.106)</text>
+    </g>
+  </g>
+</svg>

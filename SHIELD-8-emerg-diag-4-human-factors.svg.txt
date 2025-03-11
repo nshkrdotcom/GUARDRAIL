@@ -1,0 +1,165 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600">
+  <!-- Background -->
+  <rect width="900" height="600" fill="#f8f9fa" />
+  
+  <!-- Title -->
+  <text x="450" y="40" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#0A2F51">SHIELD Human Factors Framework</text>
+  <text x="450" y="70" font-family="Arial, sans-serif" font-size="16" text-anchor="middle" fill="#0A2F51">Cross-Functional Requirements and Organizational Alignment</text>
+
+  <!-- Main Content - Core Teams -->
+  <g transform="translate(450, 300)">
+    <!-- Center circle -->
+    <circle cx="0" cy="0" r="100" fill="#0A2F51" />
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">SHIELD</text>
+    <text x="0" y="25" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Response</text>
+    <text x="0" y="50" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Coordination</text>
+    <text x="0" y="-25" font-family="Arial, sans-serif" font-size="14" text-anchor="middle" fill="white">Core</text>
+    
+    <!-- Security Team (IT Security) -->
+    <g transform="translate(-200, -200)">
+      <circle cx="0" cy="0" r="80" fill="#C54B4B" />
+      <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Security</text>
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Operations</text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">SOC / CSIRT</text>
+      <line x1="56" y1="56" x2="141" y2="141" stroke="#C54B4B" stroke-width="3" />
+    </g>
+    
+    <!-- Legal and Compliance -->
+    <g transform="translate(200, -200)">
+      <circle cx="0" cy="0" r="80" fill="#6E48AA" />
+      <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Legal &</text>
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Compliance</text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Privacy / Regulatory</text>
+      <line x1="-56" y1="56" x2="-141" y2="141" stroke="#6E48AA" stroke-width="3" />
+    </g>
+    
+    <!-- IT Operations -->
+    <g transform="translate(-200, 200)">
+      <circle cx="0" cy="0" r="80" fill="#48AA55" />
+      <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">IT</text>
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Operations</text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Infrastructure / DevOps</text>
+      <line x1="56" y1="-56" x2="141" y2="-141" stroke="#48AA55" stroke-width="3" />
+    </g>
+    
+    <!-- Business Units -->
+    <g transform="translate(200, 200)">
+      <circle cx="0" cy="0" r="80" fill="#BF8C30" />
+      <text x="0" y="-20" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Business</text>
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="white">Leadership</text>
+      <text x="0" y="25" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="white">Operations / Continuity</text>
+      <line x1="-56" y1="-56" x2="-141" y2="-141" stroke="#BF8C30" stroke-width="3" />
+    </g>
+    
+    <!-- Key skills and responsibilities boxes -->
+    <!-- Security Team -->
+    <g transform="translate(-320, -320)">
+      <rect x="-40" y="-40" width="240" height="180" rx="5" fill="#fafafa" stroke="#C54B4B" stroke-width="2" />
+      <text x="80" y="-20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#C54B4B">Key Responsibilities</text>
+      
+      <text x="-30" y="0" font-family="Arial, sans-serif" font-size="12" fill="#333">• Real-time threat monitoring</text>
+      <text x="-30" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">• Incident classification</text>
+      <text x="-30" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333">• Technical investigation</text>
+      <text x="-30" y="60" font-family="Arial, sans-serif" font-size="12" fill="#333">• Containment execution</text>
+      <text x="-30" y="80" font-family="Arial, sans-serif" font-size="12" fill="#333">• Forensic analysis</text>
+      <text x="-30" y="100" font-family="Arial, sans-serif" font-size="12" fill="#333">• Attack vector identification</text>
+      
+      <text x="80" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#C54B4B">Training Requirements</text>
+      <text x="80" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Incident Response Certification</text>
+    </g>
+    
+    <!-- Legal and Compliance -->
+    <g transform="translate(320, -320)">
+      <rect x="-200" y="-40" width="240" height="180" rx="5" fill="#fafafa" stroke="#6E48AA" stroke-width="2" />
+      <text x="-80" y="-20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#6E48AA">Key Responsibilities</text>
+      
+      <text x="-190" y="0" font-family="Arial, sans-serif" font-size="12" fill="#333">• Breach notification requirements</text>
+      <text x="-190" y="20" font-family="Arial, sans-serif" font-size="12" fill="#333">• Evidence preservation</text>
+      <text x="-190" y="40" font-family="Arial, sans-serif" font-size="12" fill="#333">• Regulatory reporting</text>
+      <text x="-190" y="60" font-family="Arial, sans-serif" font-size="12" fill="#333">• Legal privilege considerations</text>
+      <text x="-190" y="80" font-family="Arial, sans-serif" font-size="12" fill="#333">• Contractual obligations</text>
+      <text x="-190" y="100" font-family="Arial, sans-serif" font-size="12" fill="#333">• Compliance documentation</text>
+      
+      <text x="-80" y="125" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#6E48AA">Training Requirements</text>
+      <text x="-80" y="145" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Data Privacy & Cyber Law</text>
+    </g>
+    
+    <!-- IT Operations -->
+    <g transform="translate(-320, 320)">
+      <rect x="-40" y="-140" width="240" height="180" rx="5" fill="#fafafa" stroke="#48AA55" stroke-width="2" />
+      <text x="80" y="-120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#48AA55">Key Responsibilities</text>
+      
+      <text x="-30" y="-100" font-family="Arial, sans-serif" font-size="12" fill="#333">• System recovery operations</text>
+      <text x="-30" y="-80" font-family="Arial, sans-serif" font-size="12" fill="#333">• Infrastructure isolation</text>
+      <text x="-30" y="-60" font-family="Arial, sans-serif" font-size="12" fill="#333">• Backup restoration</text>
+      <text x="-30" y="-40" font-family="Arial, sans-serif" font-size="12" fill="#333">• Network segmentation</text>
+      <text x="-30" y="-20" font-family="Arial, sans-serif" font-size="12" fill="#333">• Patch deployment</text>
+      <text x="-30" y="0" font-family="Arial, sans-serif" font-size="12" fill="#333">• System validation</text>
+      
+      <text x="80" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#48AA55">Training Requirements</text>
+      <text x="80" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">DR/BCP Procedures</text>
+    </g>
+    
+    <!-- Business Leadership -->
+    <g transform="translate(320, 320)">
+      <rect x="-200" y="-140" width="240" height="180" rx="5" fill="#fafafa" stroke="#BF8C30" stroke-width="2" />
+      <text x="-80" y="-120" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#BF8C30">Key Responsibilities</text>
+      
+      <text x="-190" y="-100" font-family="Arial, sans-serif" font-size="12" fill="#333">• Business impact assessment</text>
+      <text x="-190" y="-80" font-family="Arial, sans-serif" font-size="12" fill="#333">• Recovery prioritization</text>
+      <text x="-190" y="-60" font-family="Arial, sans-serif" font-size="12" fill="#333">• Customer communications</text>
+      <text x="-190" y="-40" font-family="Arial, sans-serif" font-size="12" fill="#333">• Critical decision authority</text>
+      <text x="-190" y="-20" font-family="Arial, sans-serif" font-size="12" fill="#333">• Resource allocation</text>
+      <text x="-190" y="0" font-family="Arial, sans-serif" font-size="12" fill="#333">• Stakeholder management</text>
+      
+      <text x="-80" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#BF8C30">Training Requirements</text>
+      <text x="-80" y="45" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Crisis Management</text>
+    </g>
+  </g>
+  
+  <!-- Additional Support Teams -->
+  <g transform="translate(450, 110)">
+    <rect x="-380" y="-30" width="760" height="30" rx="5" fill="#f0f0f0" stroke="#666" stroke-width="1" />
+    <text x="0" y="-5" font-family="Arial, sans-serif" font-size="16" font-weight="bold" text-anchor="middle" fill="#0A2F51">Supporting Functions</text>
+    
+    <g transform="translate(-300, 0)">
+      <rect x="-60" y="10" width="120" height="60" rx="5" fill="#E9ECF5" stroke="#0A2F51" stroke-width="1" />
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0A2F51">Communications</text>
+      <text x="0" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">PR / Media</text>
+    </g>
+    
+    <g transform="translate(-150, 0)">
+      <rect x="-60" y="10" width="120" height="60" rx="5" fill="#E9ECF5" stroke="#0A2F51" stroke-width="1" />
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0A2F51">Human</text>
+      <text x="0" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Resources</text>
+    </g>
+    
+    <g transform="translate(0, 0)">
+      <rect x="-60" y="10" width="120" height="60" rx="5" fill="#E9ECF5" stroke="#0A2F51" stroke-width="1" />
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0A2F51">Risk</text>
+      <text x="0" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Management</text>
+    </g>
+    
+    <g transform="translate(150, 0)">
+      <rect x="-60" y="10" width="120" height="60" rx="5" fill="#E9ECF5" stroke="#0A2F51" stroke-width="1" />
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0A2F51">Executive</text>
+      <text x="0" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Leadership</text>
+    </g>
+    
+    <g transform="translate(300, 0)">
+      <rect x="-60" y="10" width="120" height="60" rx="5" fill="#E9ECF5" stroke="#0A2F51" stroke-width="1" />
+      <text x="0" y="35" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0A2F51">Vendor</text>
+      <text x="0" y="55" font-family="Arial, sans-serif" font-size="12" text-anchor="middle" fill="#333">Management</text>
+    </g>
+  </g>
+
+  <!-- Footer - Readiness Assessment -->
+  <g transform="translate(450, 570)">
+    <text x="0" y="-20" font-family="Arial, sans-serif" font-size="14" font-weight="bold" text-anchor="middle" fill="#0A2F51">Organizational Readiness Assessment</text>
+    
+    <rect x="-425" y="-10" width="850" height="30" rx="5" fill="#f0f0f0" stroke="#666" stroke-width="1" />
+    
+    <!-- Scale -->
+    <rect x="-400" y="-10" width="170" height="30" rx="0" fill="#FFBDBD" />
+    <rect x="-230" y="-10" width="170" height="30" rx="0" fill="#FFE4BD" />
+    <rect x="-60" y="-10" width="170" height="30" rx="
