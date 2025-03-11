@@ -1,0 +1,155 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" width="1000" height="500">
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="500" fill="#f0f2f5"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">GUARDRAIL Gateway - 19" Rack Appliance Interface</text>
+  
+  <!-- Rack unit outline (2U) -->
+  <rect x="100" y="80" width="800" height="350" rx="5" ry="5" fill="#2c3e50" stroke="#1c2833" stroke-width="4"/>
+  
+  <!-- Brand name and model -->
+  <text x="150" y="115" font-family="Arial" font-size="20" fill="#ecf0f1" font-weight="bold">GUARDRAIL</text>
+  <text x="280" y="115" font-family="Arial" font-size="16" fill="#bdc3c7">GW-5000 Gateway</text>
+  
+  <!-- Status Display -->
+  <rect x="700" y="95" width="170" height="40" rx="3" ry="3" fill="#1c2833" stroke="#34495e" stroke-width="2"/>
+  <text x="720" y="120" font-family="Arial" font-size="14" fill="#ecf0f1">STATUS: OPERATIONAL</text>
+  <circle cx="840" y="115" r="8" fill="#27ae60"/>
+  
+  <!-- Front Panel Connection Ports -->
+  
+  <!-- Management Ports -->
+  <rect x="130" y="150" width="200" height="120" rx="3" ry="3" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+  <text x="230" y="170" font-family="Arial" font-size="14" fill="#ecf0f1" text-anchor="middle">MANAGEMENT</text>
+  
+  <!-- Management Console Port -->
+  <rect x="150" y="190" width="35" height="35" rx="2" ry="2" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="167" y="235" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">CONSOLE</text>
+  
+  <!-- Management Ethernet Port -->
+  <rect x="205" y="190" width="35" height="35" rx="2" ry="2" fill="#1c2833" stroke="#3498db" stroke-width="1"/>
+  <rect x="213" y="205" width="20" height="15" rx="1" ry="1" fill="#3498db"/>
+  <text x="222" y="235" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">MGMT</text>
+  
+  <!-- USB Ports -->
+  <rect x="260" y="190" width="50" height="20" rx="2" ry="2" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <rect x="260" y="215" width="50" height="20" rx="2" ry="2" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="285" y="255" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">USB</text>
+  
+  <!-- Data Ports -->
+  <rect x="350" y="150" width="500" height="120" rx="3" ry="3" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+  <text x="600" y="170" font-family="Arial" font-size="14" fill="#ecf0f1" text-anchor="middle">DATA INTERFACES</text>
+  
+  <!-- Network Ports -->
+  <!-- Group 1: Client Side -->
+  <rect x="380" y="190" width="40" height="40" rx="2" ry="2" fill="#1c2833" stroke="#3498db" stroke-width="1"/>
+  <rect x="390" y="195" width="20" height="15" rx="1" ry="1" fill="#3498db"/>
+  <circle cx="400" cy="218" r="5" fill="#3498db"/>
+  <text x="400" y="245" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">NET-1</text>
+  
+  <rect x="430" y="190" width="40" height="40" rx="2" ry="2" fill="#1c2833" stroke="#3498db" stroke-width="1"/>
+  <rect x="440" y="195" width="20" height="15" rx="1" ry="1" fill="#3498db"/>
+  <circle cx="450" cy="218" r="5" fill="#3498db"/>
+  <text x="450" y="245" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">NET-2</text>
+  
+  <!-- Group 2: Server Side -->
+  <rect x="730" y="190" width="40" height="40" rx="2" ry="2" fill="#1c2833" stroke="#e74c3c" stroke-width="1"/>
+  <rect x="740" y="195" width="20" height="15" rx="1" ry="1" fill="#e74c3c"/>
+  <circle cx="750" cy="218" r="5" fill="#e74c3c"/>
+  <text x="750" y="245" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">NET-3</text>
+  
+  <rect x="780" y="190" width="40" height="40" rx="2" ry="2" fill="#1c2833" stroke="#e74c3c" stroke-width="1"/>
+  <rect x="790" y="195" width="20" height="15" rx="1" ry="1" fill="#e74c3c"/>
+  <circle cx="800" cy="218" r="5" fill="#e74c3c"/>
+  <text x="800" y="245" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">NET-4</text>
+  
+  <!-- Port Labels -->
+  <text x="400" y="175" font-family="Arial" font-size="11" fill="#3498db" text-anchor="middle" font-weight="bold">CLIENT SIDE</text>
+  <text x="780" y="175" font-family="Arial" font-size="11" fill="#e74c3c" text-anchor="middle" font-weight="bold">SERVER SIDE</text>
+  
+  <!-- SFP+ Ports -->
+  <rect x="500" y="190" width="200" height="40" rx="2" ry="2" fill="#1c2833" stroke="#95a5a6" stroke-width="1"/>
+  <line x1="550" y1="190" x2="550" y2="230" stroke="#95a5a6" stroke-width="1"/>
+  <line x1="600" y1="190" x2="600" y2="230" stroke="#95a5a6" stroke-width="1"/>
+  <line x1="650" y1="190" x2="650" y2="230" stroke="#95a5a6" stroke-width="1"/>
+  <text x="525" y="215" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">SFP-1</text>
+  <text x="575" y="215" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">SFP-2</text>
+  <text x="625" y="215" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">SFP-3</text>
+  <text x="675" y="215" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">SFP-4</text>
+  <text x="600" y="245" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">SFP+ 10GbE</text>
+  
+  <!-- Control Panel -->
+  <rect x="130" y="290" width="740" height="100" rx="3" ry="3" fill="#34495e" stroke="#2c3e50" stroke-width="2"/>
+  <text x="500" y="310" font-family="Arial" font-size="14" fill="#ecf0f1" text-anchor="middle">CONTROL PANEL</text>
+  
+  <!-- LCD Display -->
+  <rect x="150" y="325" width="240" height="50" rx="2" ry="2" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <rect x="155" y="330" width="230" height="40" fill="#2c3e50"/>
+  <text x="270" y="355" font-family="Arial" font-size="12" fill="#ecf0f1" text-anchor="middle">SYSTEM STATUS DISPLAY</text>
+  
+  <!-- Navigation Buttons -->
+  <circle cx="420" cy="350" r="15" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <polygon points="415,345 415,355 425,350" fill="#ecf0f1"/>
+  
+  <circle cx="460" cy="350" r="15" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <polygon points="465,345 465,355 455,350" fill="#ecf0f1"/>
+  
+  <circle cx="500" cy="350" r="15" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="500" y="354" font-family="Arial" font-size="12" fill="#ecf0f1" text-anchor="middle">OK</text>
+  
+  <circle cx="540" cy="350" r="15" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="540" y="354" font-family="Arial" font-size="14" fill="#ecf0f1" text-anchor="middle">⌂</text>
+  
+  <circle cx="580" cy="350" r="15" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="580" y="354" font-family="Arial" font-size="14" fill="#ecf0f1" text-anchor="middle">×</text>
+  
+  <!-- Status LEDs -->
+  <rect x="620" y="330" width="230" height="40" rx="2" ry="2" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  
+  <!-- Power LED -->
+  <circle cx="650" cy="350" r="10" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <circle cx="650" cy="350" r="6" fill="#27ae60"/>
+  <text x="650" y="375" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">PWR</text>
+  
+  <!-- System LED -->
+  <circle cx="690" cy="350" r="10" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <circle cx="690" cy="350" r="6" fill="#27ae60"/>
+  <text x="690" y="375" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">SYS</text>
+  
+  <!-- Network Status LED -->
+  <circle cx="730" cy="350" r="10" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <circle cx="730" cy="350" r="6" fill="#27ae60"/>
+  <text x="730" y="375" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">NET</text>
+  
+  <!-- Alert LED -->
+  <circle cx="770" cy="350" r="10" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <circle cx="770" cy="350" r="6" fill="#f39c12"/>
+  <text x="770" y="375" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">ALERT</text>
+  
+  <!-- Disk Activity LED -->
+  <circle cx="810" cy="350" r="10" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <circle cx="810" cy="350" r="6" fill="#3498db"/>
+  <text x="810" y="375" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">DISK</text>
+  
+  <!-- Power button -->
+  <circle cx="875" cy="115" r="12" fill="#1c2833" stroke="#7f8c8d" stroke-width="1"/>
+  <circle cx="875" cy="115" r="7" fill="#e74c3c" stroke="#1c2833" stroke-width="1"/>
+  <text x="875" y="140" font-family="Arial" font-size="10" fill="#ecf0f1" text-anchor="middle">POWER</text>
+  
+  <!-- Dimensions -->
+  <line x1="80" y1="80" x2="80" y2="430" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="80" y1="80" x2="70" y2="80" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="80" y1="430" x2="70" y2="430" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="75" y1="80" x2="75" y2="430" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="55" y="255" font-family="Arial" font-size="12" fill="#7f8c8d" text-anchor="middle" transform="rotate(-90 55 255)">2U (88.9mm)</text>
+  
+  <line x1="100" y1="450" x2="900" y2="450" stroke="#7f8c8d" stroke-width="1" stroke-dasharray="5,3"/>
+  <line x1="100" y1="450" x2="100" y2="460" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="900" y1="450" x2="900" y2="460" stroke="#7f8c8d" stroke-width="1"/>
+  <line x1="100" y1="455" x2="900" y2="455" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="500" y="475" font-family="Arial" font-size="12" fill="#7f8c8d" text-anchor="middle">19 inch (482.6mm)</text>
+  
+  <!-- Additional information -->
+  <text x="925" y="100" font-family="Arial" font-size="10" fill="#7f8c8d" transform="rotate(-90 925 100)">GUARDRAIL GW-5000 | SN: GW5-209374851</text>
+</svg>

@@ -1,0 +1,196 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 750" width="1000" height="750">
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="750" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">GUARDRAIL Sidecar - Internal Architecture</text>
+  
+  <!-- Main Container -->
+  <rect x="50" y="70" width="900" height="640" rx="8" ry="8" fill="#ffffff" stroke="#0f766e" stroke-width="2"/>
+  
+  <!-- Container Header -->
+  <rect x="50" y="70" width="900" height="40" rx="8" ry="8" fill="#14b8a6" stroke="#0f766e" stroke-width="0"/>
+  <text x="500" y="95" font-family="Arial" font-size="16" text-anchor="middle" fill="#ffffff" font-weight="bold">GUARDRAIL Sidecar Container</text>
+  
+  <!-- Container Labels -->
+  <rect x="800" y="77" width="140" height="25" rx="4" ry="4" fill="#0d9488" stroke="#0f766e" stroke-width="1"/>
+  <text x="870" y="95" font-family="Arial" font-size="12" text-anchor="middle" fill="#ffffff">version: 1.0.3</text>
+  
+  <!-- Core Sidecar Components -->
+  <rect x="70" y="130" width="860" height="290" rx="5" ry="5" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="500" y="155" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#134e4a">Core Components</text>
+  
+  <!-- Proxy Interceptor -->
+  <rect x="90" y="170" width="250" height="230" rx="5" ry="5" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="215" y="195" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0f766e">Proxy Interceptor</text>
+  
+  <rect x="105" y="215" width="220" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="215" y="240" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Transport Listener</text>
+  
+  <rect x="105" y="265" width="220" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="215" y="290" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Protocol Parser</text>
+  
+  <rect x="105" y="315" width="105" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="157" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Inbound Filter</text>
+  
+  <rect x="220" y="315" width="105" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="272" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Outbound Filter</text>
+  
+  <rect x="105" y="365" width="220" height="25" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="215" y="382" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Traffic Metrics Collector</text>
+  
+  <!-- Security Processing Engine -->
+  <rect x="360" y="170" width="250" height="230" rx="5" ry="5" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="485" y="195" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0f766e">Security Processing Engine</text>
+  
+  <rect x="375" y="215" width="220" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="485" y="240" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Content Classification</text>
+  
+  <rect x="375" y="265" width="220" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="485" y="290" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Policy Enforcement</text>
+  
+  <rect x="375" y="315" width="105" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="427" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Flow Control</text>
+  
+  <rect x="490" y="315" width="105" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="542" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Transformation</text>
+  
+  <rect x="375" y="365" width="220" height="25" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="485" y="382" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Request/Response Processor</text>
+  
+  <!-- Control Plane Client -->
+  <rect x="630" y="170" width="280" height="230" rx="5" ry="5" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="770" y="195" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold" fill="#0f766e">Control Plane Client</text>
+  
+  <rect x="645" y="215" width="250" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="770" y="240" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Policy Client</text>
+  
+  <rect x="645" y="265" width="250" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="770" y="290" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Identity Client</text>
+  
+  <rect x="645" y="315" width="120" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="705" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">Audit Client</text>
+  
+  <rect x="775" y="315" width="120" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="835" y="340" font-family="Arial" font-size="14" text-anchor="middle" fill="#0f766e">mTLS Manager</text>
+  
+  <rect x="645" y="365" width="250" height="25" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="770" y="382" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Control Plane Connectivity</text>
+  
+  <!-- Security Layers -->
+  <rect x="70" y="440" width="420" height="250" rx="5" ry="5" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="280" y="465" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#134e4a">Security Layers</text>
+  
+  <!-- Information Gateway Layer -->
+  <rect x="90" y="480" width="380" height="50" rx="3" ry="3" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="125" y="510" font-family="Arial" font-size="14" text-anchor="start" font-weight="bold" fill="#0f766e">Information Gateway Layer</text>
+  <rect x="325" y="485" width="135" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="392" y="510" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Active ✓</text>
+  
+  <!-- Context Verification Layer -->
+  <rect x="90" y="540" width="380" height="50" rx="3" ry="3" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="125" y="570" font-family="Arial" font-size="14" text-anchor="start" font-weight="bold" fill="#0f766e">Context Verification Layer</text>
+  <rect x="325" y="545" width="135" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="392" y="570" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Active ✓</text>
+  
+  <!-- Request Control Layer -->
+  <rect x="90" y="600" width="380" height="50" rx="3" ry="3" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="125" y="630" font-family="Arial" font-size="14" text-anchor="start" font-weight="bold" fill="#0f766e">Request Control Layer</text>
+  <rect x="325" y="605" width="135" height="40" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="392" y="630" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Active ✓</text>
+  
+  <!-- Audit & Monitoring Layer -->
+  <rect x="90" y="660" width="380" height="30" rx="3" ry="3" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="125" y="680" font-family="Arial" font-size="14" text-anchor="start" font-weight="bold" fill="#0f766e">Audit & Monitoring Layer</text>
+  <rect x="325" y="665" width="135" height="20" rx="3" ry="3" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="392" y="680" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Active ✓</text>
+  
+  <!-- Runtime Components -->
+  <rect x="510" y="440" width="420" height="250" rx="5" ry="5" fill="#f0fdfa" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="720" y="465" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold" fill="#134e4a">Runtime Components</text>
+  
+  <!-- Policy Cache -->
+  <rect x="530" y="480" width="180" height="90" rx="3" ry="3" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="620" y="500" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#0f766e">Policy Cache</text>
+  <rect x="540" y="510" width="160" height="25" rx="2" ry="2" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="620" y="527" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Security Rules Cache</text>
+  <rect x="540" y="540" width="160" height="25" rx="2" ry="2" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="620" y="557" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Configuration Cache</text>
+  
+  <!-- Credential Store -->
+  <rect x="730" y="480" width="180" height="90" rx="3" ry="3" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="820" y="500" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#0f766e">Credential Store</text>
+  <rect x="740" y="510" width="160" height="25" rx="2" ry="2" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="820" y="527" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Certificate Store</text>
+  <rect x="740" y="540" width="160" height="25" rx="2" ry="2" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="820" y="557" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Key Storage</text>
+  
+  <!-- Metrics Collector -->
+  <rect x="530" y="580" width="180" height="90" rx="3" ry="3" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="620" y="600" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#0f766e">Metrics Collector</text>
+  <rect x="540" y="610" width="160" height="25" rx="2" ry="2" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="620" y="627" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Prometheus Exporter</text>
+  <rect x="540" y="640" width="160" height="25" rx="2" ry="2" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="620" y="657" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Performance Metrics</text>
+  
+  <!-- Health Manager -->
+  <rect x="730" y="580" width="180" height="90" rx="3" ry="3" fill="#ccfbf1" stroke="#14b8a6" stroke-width="1.5"/>
+  <text x="820" y="600" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold" fill="#0f766e">Health Manager</text>
+  <rect x="740" y="610" width="160" height="25" rx="2" ry="2" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="820" y="627" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Liveness Probe</text>
+  <rect x="740" y="640" width="160" height="25" rx="2" ry="2" fill="#99f6e4" stroke="#14b8a6" stroke-width="1"/>
+  <text x="820" y="657" font-family="Arial" font-size="12" text-anchor="middle" fill="#0f766e">Readiness Probe</text>
+  
+  <!-- Connection Arrows -->
+  <!-- Between Proxy and Security Engine -->
+  <line x1="340" y1="285" x2="360" y2="285" stroke="#0f766e" stroke-width="2"/>
+  <polygon points="350,280 360,285 350,290" fill="#0f766e"/>
+  
+  <!-- Between Security Engine and Control Plane Client -->
+  <line x1="610" y1="285" x2="630" y2="285" stroke="#0f766e" stroke-width="2"/>
+  <polygon points="620,280 630,285 620,290" fill="#0f766e"/>
+  
+  <!-- Core to Security Layers -->
+  <line x1="280" y1="400" x2="280" y2="480" stroke="#0f766e" stroke-width="2"/>
+  <polygon points="275,470 280,480 285,470" fill="#0f766e"/>
+  
+  <!-- Core to Runtime Components -->
+  <line x1="720" y1="400" x2="720" y2="480" stroke="#0f766e" stroke-width="2"/>
+  <polygon points="715,470 720,480 725,470" fill="#0f766e"/>
+  
+  <!-- Between Security Layers -->
+  <line x1="280" y1="530" x2="280" y2="540" stroke="#0f766e" stroke-width="1.5"/>
+  <polygon points="275,530 280,540 285,530" fill="#0f766e"/>
+  
+  <line x1="280" y1="590" x2="280" y2="600" stroke="#0f766e" stroke-width="1.5"/>
+  <polygon points="275,590 280,600 285,590" fill="#0f766e"/>
+  
+  <line x1="280" y1="650" x2="280" y2="660" stroke="#0f766e" stroke-width="1.5"/>
+  <polygon points="275,650 280,660 285,650" fill="#0f766e"/>
+  
+  <!-- Container Stats -->
+  <rect x="55" y="692" width="890" height="13" rx="2" ry="2" fill="#d1fae5" stroke="#0f766e" stroke-width="1"/>
+  <rect x="55" y="692" width="712" height="13" rx="2" ry="2" fill="#0d9488"/>
+  <text x="970" y="704" font-family="Arial" font-size="10" fill="#134e4a" text-anchor="end">CPU: 80% | Memory: 512MB/640MB | Net: 24.2MB/s | Uptime: 7d 12h</text>
+  
+  <!-- Data Flow Indicators -->
+  <circle cx="280" y="120" r="12" fill="#f9a8d4" stroke="#be185d" stroke-width="1.5"/>
+  <text x="280" y="124" font-family="Arial" font-size="12" fill="#be185d" text-anchor="middle" font-weight="bold">1</text>
+  
+  <circle cx="485" y="120" r="12" fill="#f9a8d4" stroke="#be185d" stroke-width="1.5"/>
+  <text x="485" y="124" font-family="Arial" font-size="12" fill="#be185d" text-anchor="middle" font-weight="bold">2</text>
+  
+  <circle cx="720" y="120" r="12" fill="#f9a8d4" stroke="#be185d" stroke-width="1.5"/>
+  <text x="720" y="124" font-family="Arial" font-size="12" fill="#be185d" text-anchor="middle" font-weight="bold">3</text>
+  
+  <!-- Legend -->
+  <rect x="70" y="710" width="860" height="25" rx="3" ry="3" fill="#f0fdfa" stroke="#0f766e" stroke-width="1"/>
+  <text x="90" y="726" font-family="Arial" font-size="11" fill="#0f766e" text-anchor="middle" font-weight="bold">1:</text>
+  <text x="185" y="726" font-family="Arial" font-size="11" fill="#0f766e" text-anchor="start">Intercept & Decode MCP Traffic</text>
+  
+  <text x="370" y="726" font-family="Arial" font-size="11" fill="#0f766e" text-anchor="middle" font-weight="bold">2:</text>
+  <text x="495" y="726" font-family="Arial" font-size="11" fill="#0f766e" text-anchor="start">Apply Security Policies</text>
+  
+  <text x="610" y="726" font-family="Arial" font-size="11" fill="#0f766e" text-anchor="middle" font-weight="bold">3:</text>
+  <text x="740" y="726" font-family="Arial" font-size="11" fill="#0f766e" text-anchor="start">Coordinate with Control Plane</text>
+</svg>

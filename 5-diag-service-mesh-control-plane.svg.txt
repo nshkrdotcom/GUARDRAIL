@@ -1,0 +1,255 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 800" width="1100" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="1100" height="800" fill="#f8f9fa"/>
+  
+  <!-- Title -->
+  <text x="550" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">GUARDRAIL Service Mesh - Control Plane Architecture</text>
+  
+  <!-- Kubernetes Main Boundary -->
+  <rect x="50" y="70" width="1000" height="690" rx="10" ry="10" fill="#ffffff" stroke="#475569" stroke-width="2" stroke-dasharray="8,4"/>
+  <text x="550" y="95" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">GUARDRAIL Control Plane Namespace</text>
+  
+  <!-- Kubernetes Icon -->
+  <circle cx="80" y="95" r="15" fill="#326ce5"/>
+  <text x="80" y="100" font-family="Arial" font-size="18" fill="#ffffff" text-anchor="middle" font-weight="bold">⎈</text>
+  
+  <!-- System Components Section -->
+  <rect x="80" y="120" width="940" height="280" rx="8" ry="8" fill="#f9fafb" stroke="#64748b" stroke-width="1.5" />
+  <text x="550" y="145" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Core Services</text>
+  
+  <!-- Policy Management StatefulSet -->
+  <rect x="100" y="160" width="260" height="220" rx="5" ry="5" fill="#fff7ed" stroke="#f97316" stroke-width="1.5"/>
+  <text x="230" y="180" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Policy Management</text>
+  <text x="230" y="200" font-family="Arial" font-size="12" text-anchor="middle">StatefulSet (3 replicas)</text>
+  
+  <rect x="115" y="220" width="230" height="50" rx="3" ry="3" fill="#ffedd5" stroke="#f97316" stroke-width="1"/>
+  <text x="230" y="250" font-family="Arial" font-size="13" text-anchor="middle">Policy Definition Service</text>
+  
+  <rect x="115" y="280" width="230" height="50" rx="3" ry="3" fill="#ffedd5" stroke="#f97316" stroke-width="1"/>
+  <text x="230" y="310" font-family="Arial" font-size="13" text-anchor="middle">Policy Distribution Service</text>
+  
+  <rect x="115" y="340" width="110" height="25" rx="3" ry="3" fill="#fed7aa" stroke="#f97316" stroke-width="1"/>
+  <text x="170" y="357" font-family="Arial" font-size="11" text-anchor="middle">Configuration DB</text>
+  
+  <rect x="235" y="340" width="110" height="25" rx="3" ry="3" fill="#fed7aa" stroke="#f97316" stroke-width="1"/>
+  <text x="290" y="357" font-family="Arial" font-size="11" text-anchor="middle">Rule Engine</text>
+  
+  <!-- Identity Service StatefulSet -->
+  <rect x="380" y="160" width="260" height="220" rx="5" ry="5" fill="#ecfdf5" stroke="#10b981" stroke-width="1.5"/>
+  <text x="510" y="180" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Identity Service</text>
+  <text x="510" y="200" font-family="Arial" font-size="12" text-anchor="middle">StatefulSet (3 replicas)</text>
+  
+  <rect x="395" y="220" width="230" height="50" rx="3" ry="3" fill="#d1fae5" stroke="#10b981" stroke-width="1"/>
+  <text x="510" y="250" font-family="Arial" font-size="13" text-anchor="middle">Certificate Management</text>
+  
+  <rect x="395" y="280" width="230" height="50" rx="3" ry="3" fill="#d1fae5" stroke="#10b981" stroke-width="1"/>
+  <text x="510" y="310" font-family="Arial" font-size="13" text-anchor="middle">Authentication Service</text>
+  
+  <rect x="395" y="340" width="110" height="25" rx="3" ry="3" fill="#a7f3d0" stroke="#10b981" stroke-width="1"/>
+  <text x="450" y="357" font-family="Arial" font-size="11" text-anchor="middle">PKI Infrastructure</text>
+  
+  <rect x="515" y="340" width="110" height="25" rx="3" ry="3" fill="#a7f3d0" stroke="#10b981" stroke-width="1"/>
+  <text x="570" y="357" font-family="Arial" font-size="11" text-anchor="middle">Credential Store</text>
+  
+  <!-- Audit Service StatefulSet -->
+  <rect x="660" y="160" width="260" height="220" rx="5" ry="5" fill="#eff6ff" stroke="#3b82f6" stroke-width="1.5"/>
+  <text x="790" y="180" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Audit Service</text>
+  <text x="790" y="200" font-family="Arial" font-size="12" text-anchor="middle">StatefulSet (3 replicas)</text>
+  
+  <rect x="675" y="220" width="230" height="50" rx="3" ry="3" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="790" y="250" font-family="Arial" font-size="13" text-anchor="middle">Log Collection Service</text>
+  
+  <rect x="675" y="280" width="230" height="50" rx="3" ry="3" fill="#dbeafe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="790" y="310" font-family="Arial" font-size="13" text-anchor="middle">Security Analytics Engine</text>
+  
+  <rect x="675" y="340" width="110" height="25" rx="3" ry="3" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="730" y="357" font-family="Arial" font-size="11" text-anchor="middle">Event Storage</text>
+  
+  <rect x="795" y="340" width="110" height="25" rx="3" ry="3" fill="#bfdbfe" stroke="#3b82f6" stroke-width="1"/>
+  <text x="850" y="357" font-family="Arial" font-size="11" text-anchor="middle">Anomaly Detection</text>
+  
+  <!-- Integration Layer Section -->
+  <rect x="80" y="420" width="940" height="140" rx="8" ry="8" fill="#f9fafb" stroke="#64748b" stroke-width="1.5" />
+  <text x="550" y="445" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Integration Layer</text>
+  
+  <!-- API Gateway Deployment -->
+  <rect x="100" y="460" width="220" height="80" rx="5" ry="5" fill="#fdf2f8" stroke="#db2777" stroke-width="1.5"/>
+  <text x="210" y="480" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">API Gateway</text>
+  <text x="210" y="500" font-family="Arial" font-size="12" text-anchor="middle">Deployment</text>
+  
+  <rect x="115" y="510" width="90" height="25" rx="3" ry="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1"/>
+  <text x="160" y="527" font-family="Arial" font-size="11" text-anchor="middle">Admin API</text>
+  
+  <rect x="215" y="510" width="90" height="25" rx="3" ry="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1"/>
+  <text x="260" y="527" font-family="Arial" font-size="11" text-anchor="middle">Service API</text>
+  
+  <!-- External Registry Integration -->
+  <rect x="340" y="460" width="220" height="80" rx="5" ry="5" fill="#fdf2f8" stroke="#db2777" stroke-width="1.5"/>
+  <text x="450" y="480" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">External Registry</text>
+  <text x="450" y="500" font-family="Arial" font-size="12" text-anchor="middle">Deployment</text>
+  
+  <rect x="355" y="510" width="90" height="25" rx="3" ry="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1"/>
+  <text x="400" y="527" font-family="Arial" font-size="11" text-anchor="middle">Service Discovery</text>
+  
+  <rect x="455" y="510" width="90" height="25" rx="3" ry="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1"/>
+  <text x="500" y="527" font-family="Arial" font-size="11" text-anchor="middle">Mesh Registry</text>
+  
+  <!-- Event Bus Integration -->
+  <rect x="580" y="460" width="220" height="80" rx="5" ry="5" fill="#fdf2f8" stroke="#db2777" stroke-width="1.5"/>
+  <text x="690" y="480" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Event Bus</text>
+  <text x="690" y="500" font-family="Arial" font-size="12" text-anchor="middle">Deployment</text>
+  
+  <rect x="595" y="510" width="90" height="25" rx="3" ry="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1"/>
+  <text x="640" y="527" font-family="Arial" font-size="11" text-anchor="middle">Pub/Sub Broker</text>
+  
+  <rect x="695" y="510" width="90" height="25" rx="3" ry="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1"/>
+  <text x="740" y="527" font-family="Arial" font-size="11" text-anchor="middle">Event Streams</text>
+  
+  <!-- Management Interface -->
+  <rect x="820" y="460" width="180" height="80" rx="5" ry="5" fill="#fdf2f8" stroke="#db2777" stroke-width="1.5"/>
+  <text x="910" y="480" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">UI Portal</text>
+  <text x="910" y="500" font-family="Arial" font-size="12" text-anchor="middle">Deployment</text>
+  
+  <rect x="835" y="510" width="150" height="25" rx="3" ry="3" fill="#fbcfe8" stroke="#db2777" stroke-width="1"/>
+  <text x="910" y="527" font-family="Arial" font-size="11" text-anchor="middle">Admin Dashboard</text>
+  
+  <!-- Storage Section -->
+  <rect x="80" y="580" width="940" height="160" rx="8" ry="8" fill="#f9fafb" stroke="#64748b" stroke-width="1.5" />
+  <text x="550" y="605" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Storage & Persistent State</text>
+  
+  <!-- Databases -->
+  <rect x="100" y="620" width="280" height="100" rx="5" ry="5" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="240" y="640" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Databases</text>
+  <text x="240" y="660" font-family="Arial" font-size="12" text-anchor="middle">StatefulSet</text>
+  
+  <rect x="115" y="675" width="80" height="35" rx="3" ry="3" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="155" y="697" font-family="Arial" font-size="11" text-anchor="middle">Policy DB</text>
+  
+  <rect x="205" y="675" width="80" height="35" rx="3" ry="3" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="245" y="697" font-family="Arial" font-size="11" text-anchor="middle">Identity DB</text>
+  
+  <rect x="295" y="675" width="70" height="35" rx="3" ry="3" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="330" y="697" font-family="Arial" font-size="11" text-anchor="middle">Config DB</text>
+  
+  <!-- Storage Systems -->
+  <rect x="400" y="620" width="280" height="100" rx="5" ry="5" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="540" y="640" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Storage Systems</text>
+  <text x="540" y="660" font-family="Arial" font-size="12" text-anchor="middle">PersistentVolumes</text>
+  
+  <rect x="415" y="675" width="80" height="35" rx="3" ry="3" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="455" y="697" font-family="Arial" font-size="11" text-anchor="middle">Audit Logs</text>
+  
+  <rect x="505" y="675" width="80" height="35" rx="3" ry="3" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="545" y="697" font-family="Arial" font-size="11" text-anchor="middle">Cert Storage</text>
+  
+  <rect x="595" y="675" width="70" height="35" rx="3" ry="3" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="630" y="697" font-family="Arial" font-size="11" text-anchor="middle">Backups</text>
+  
+  <!-- Shared Cache -->
+  <rect x="700" y="620" width="300" height="100" rx="5" ry="5" fill="#eef2ff" stroke="#6366f1" stroke-width="1.5"/>
+  <text x="850" y="640" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Distributed Cache</text>
+  <text x="850" y="660" font-family="Arial" font-size="12" text-anchor="middle">StatefulSet</text>
+  
+  <rect x="715" y="675" width="90" height="35" rx="3" ry="3" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="760" y="697" font-family="Arial" font-size="11" text-anchor="middle">Policy Cache</text>
+  
+  <rect x="815" y="675" width="80" height="35" rx="3" ry="3" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="855" y="697" font-family="Arial" font-size="11" text-anchor="middle">Auth Cache</text>
+  
+  <rect x="905" y="675" width="80" height="35" rx="3" ry="3" fill="#e0e7ff" stroke="#6366f1" stroke-width="1"/>
+  <text x="945" y="697" font-family="Arial" font-size="11" text-anchor="middle">State Cache</text>
+  
+  <!-- Connection Lines -->
+  <!-- Policy to Integration Layer -->
+  <line x1="230" y1="380" x2="230" y2="460" stroke="#f97316" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="225,450 230,460 235,450" fill="#f97316"/>
+  
+  <!-- Identity to Integration Layer -->
+  <line x1="450" y1="380" x2="450" y2="460" stroke="#10b981" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="445,450 450,460 455,450" fill="#10b981"/>
+  
+  <!-- Audit to Integration Layer -->
+  <line x1="690" y1="380" x2="690" y2="460" stroke="#3b82f6" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="685,450 690,460 695,450" fill="#3b82f6"/>
+  
+  <!-- Integration to Storage Layer -->
+  <line x1="210" y1="540" x2="210" y2="620" stroke="#db2777" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="205,610 210,620 215,610" fill="#db2777"/>
+  
+  <line x1="450" y1="540" x2="450" y2="620" stroke="#db2777" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="445,610 450,620 455,610" fill="#db2777"/>
+  
+  <line x1="690" y1="540" x2="690" y2="620" stroke="#db2777" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="685,610 690,620 695,610" fill="#db2777"/>
+  
+  <line x1="910" y1="540" x2="850" y2="620" stroke="#db2777" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="845,610 850,620 855,615" fill="#db2777"/>
+  
+  <!-- Cross Connections -->
+  <line x1="360" y1="245" x2="380" y2="245" stroke="#475569" stroke-width="1.5"/>
+  <polygon points="370,240 380,245 370,250" fill="#475569"/>
+  
+  <line x1="640" y1="245" x2="660" y2="245" stroke="#475569" stroke-width="1.5"/>
+  <polygon points="650,240 660,245 650,250" fill="#475569"/>
+  
+  <line x1="320" y1="500" x2="340" y2="500" stroke="#475569" stroke-width="1.5"/>
+  <polygon points="330,495 340,500 330,505" fill="#475569"/>
+  
+  <line x1="560" y1="500" x2="580" y2="500" stroke="#475569" stroke-width="1.5"/>
+  <polygon points="570,495 580,500 570,505" fill="#475569"/>
+  
+  <line x1="800" y1="500" x2="820" y2="500" stroke="#475569" stroke-width="1.5"/>
+  <polygon points="810,495 820,500 810,505" fill="#475569"/>
+  
+  <!-- External Traffic -->
+  <rect x="70" y="50" width="140" height="30" rx="5" ry="5" fill="#f1f5f9" stroke="#64748b" stroke-width="1"/>
+  <text x="140" y="70" font-family="Arial" font-size="12" text-anchor="middle">External Admin Access</text>
+  <line x1="140" y1="80" x2="140" y2="120" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="135,110 140,120 145,110" fill="#64748b"/>
+  
+  <rect x="400" y="50" width="140" height="30" rx="5" ry="5" fill="#f1f5f9" stroke="#64748b" stroke-width="1"/>
+  <text x="470" y="70" font-family="Arial" font-size="12" text-anchor="middle">Sidecar Connections</text>
+  <line x1="470" y1="80" x2="470" y2="120" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="465,110 470,120 475,110" fill="#64748b"/>
+  
+  <rect x="850" y="50" width="170" height="30" rx="5" ry="5" fill="#f1f5f9" stroke="#64748b" stroke-width="1"/>
+  <text x="935" y="70" font-family="Arial" font-size="12" text-anchor="middle">External Monitoring Systems</text>
+  <line x1="935" y1="80" x2="935" y2="120" stroke="#64748b" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="930,110 935,120 940,110" fill="#64748b"/>
+  
+  <!-- Scale Indicators -->
+  <circle cx="350" y="360" r="15" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="350" y="365" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">S</text>
+  
+  <circle cx="630" y="360" r="15" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="630" y="365" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">S</text>
+  
+  <circle cx="910" y="360" r="15" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="910" y="365" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">S</text>
+  
+  <circle cx="980" y="500" r="15" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="980" y="505" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">S</text>
+  
+  <circle cx="370" y="710" r="15" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="370" y="715" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">S</text>
+  
+  <circle cx="670" y="710" r="15" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="670" y="715" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">S</text>
+  
+  <circle cx="990" y="710" r="15" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="990" y="715" font-family="Arial" font-size="14" font-weight="bold" fill="#dc2626" text-anchor="middle">S</text>
+  
+  <!-- Legend -->
+  <rect x="180" y="750" width="740" height="35" rx="5" ry="5" fill="#f1f5f9" stroke="#64748b" stroke-width="1"/>
+  
+  <circle cx="220" y="767" r="10" fill="#fecaca" stroke="#dc2626" stroke-width="1.5"/>
+  <text x="220" y="771" font-family="Arial" font-size="12" font-weight="bold" fill="#dc2626" text-anchor="middle">S</text>
+  <text x="300" y="771" font-family="Arial" font-size="12" text-anchor="start">Horizontally Scalable Component</text>
+  
+  <text x="480" y="771" font-family="Arial" font-size="12" text-anchor="start" font-weight="bold">⎈</text>
+  <text x="500" y="771" font-family="Arial" font-size="12" text-anchor="start">Kubernetes Resources</text>
+  
+  <line x1="610" y1="762" x2="640" y2="762" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,2"/>
+  <polygon points="630,757 640,762 630,767" fill="#475569"/>
+  <text x="700" y="771" font-family="Arial" font-size="12" text-anchor="start">Communication Path</text>
+</svg>

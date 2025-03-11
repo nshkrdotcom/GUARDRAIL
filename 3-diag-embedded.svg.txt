@@ -1,0 +1,92 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 650" width="900" height="650">
+  <!-- Background and border for host process -->
+  <rect x="50" y="50" width="800" height="550" rx="10" ry="10" fill="#f0f4f8" stroke="#2c3e50" stroke-width="2"/>
+  
+  <!-- Host Process Label -->
+  <text x="450" y="80" font-family="Arial" font-size="22" text-anchor="middle" font-weight="bold">Host Process</text>
+  
+  <!-- MCP Client Box -->
+  <rect x="100" y="120" width="300" height="140" rx="5" ry="5" fill="#d5e8f9" stroke="#3498db" stroke-width="2"/>
+  <text x="250" y="145" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">MCP Client</text>
+  
+  <!-- MCP Server Box -->
+  <rect x="500" y="120" width="300" height="140" rx="5" ry="5" fill="#d5e8f9" stroke="#3498db" stroke-width="2"/>
+  <text x="650" y="145" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">MCP Server</text>
+  
+  <!-- MCP Communication Arrow -->
+  <line x1="400" y1="190" x2="500" y2="190" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+  <polygon points="490,185 500,190 490,195" fill="#3498db"/>
+  <text x="450" y="175" font-family="Arial" font-size="12" text-anchor="middle">MCP Protocol</text>
+  
+  <!-- GUARDRAIL Client Module Box -->
+  <rect x="100" y="320" width="300" height="220" rx="5" ry="5" fill="#e8f4d5" stroke="#27ae60" stroke-width="2"/>
+  <text x="250" y="345" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">GUARDRAIL Client Module</text>
+  
+  <!-- GUARDRAIL Server Module Box -->
+  <rect x="500" y="320" width="300" height="220" rx="5" ry="5" fill="#e8f4d5" stroke="#27ae60" stroke-width="2"/>
+  <text x="650" y="345" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">GUARDRAIL Server Module</text>
+  
+  <!-- GUARDRAIL Communication Arrow -->
+  <line x1="400" y1="430" x2="500" y2="430" stroke="#27ae60" stroke-width="3"/>
+  <polygon points="490,425 500,430 490,435" fill="#27ae60"/>
+  <text x="450" y="415" font-family="Arial" font-size="12" text-anchor="middle">Secured Communication</text>
+  
+  <!-- Vertical connection arrows -->
+  <line x1="250" y1="260" x2="250" y2="320" stroke="#2c3e50" stroke-width="2"/>
+  <polygon points="245,310 250,320 255,310" fill="#2c3e50"/>
+  
+  <line x1="650" y1="260" x2="650" y2="320" stroke="#2c3e50" stroke-width="2"/>
+  <polygon points="645,310 650,320 655,310" fill="#2c3e50"/>
+  
+  <!-- GUARDRAIL Client Module Internals -->
+  <rect x="120" y="370" width="260" height="40" rx="3" ry="3" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="250" y="395" font-family="Arial" font-size="14" text-anchor="middle">Information Gateway Layer</text>
+  
+  <rect x="120" y="415" width="260" height="40" rx="3" ry="3" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="250" y="440" font-family="Arial" font-size="14" text-anchor="middle">Context Verification Layer</text>
+  
+  <rect x="120" y="460" width="260" height="40" rx="3" ry="3" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="250" y="485" font-family="Arial" font-size="14" text-anchor="middle">Request Control Layer</text>
+  
+  <!-- GUARDRAIL Server Module Internals -->
+  <rect x="520" y="370" width="260" height="40" rx="3" ry="3" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="650" y="395" font-family="Arial" font-size="14" text-anchor="middle">Information Gateway Layer</text>
+  
+  <rect x="520" y="415" width="260" height="40" rx="3" ry="3" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="650" y="440" font-family="Arial" font-size="14" text-anchor="middle">Context Verification Layer</text>
+  
+  <rect x="520" y="460" width="260" height="40" rx="3" ry="3" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="650" y="485" font-family="Arial" font-size="14" text-anchor="middle">Request Control Layer</text>
+  
+  <rect x="520" y="505" width="260" height="28" rx="3" ry="3" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="650" y="524" font-family="Arial" font-size="14" text-anchor="middle">Execution Containment Layer</text>
+  
+  <rect x="120" y="505" width="260" height="28" rx="3" ry="3" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="250" y="524" font-family="Arial" font-size="14" text-anchor="middle">Audit and Monitoring Layer</text>
+  
+  <rect x="520" y="538" width="260" height="28" rx="3" ry="3" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="650" y="557" font-family="Arial" font-size="14" text-anchor="middle">Audit and Monitoring Layer</text>
+  
+  <!-- MCP Client Internals -->
+  <rect x="120" y="170" width="125" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="182" y="190" font-family="Arial" font-size="12" text-anchor="middle">Request Handler</text>
+  
+  <rect x="255" y="170" width="125" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="317" y="190" font-family="Arial" font-size="12" text-anchor="middle">Notification Handler</text>
+  
+  <!-- MCP Server Internals -->
+  <rect x="520" y="170" width="125" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="582" y="190" font-family="Arial" font-size="12" text-anchor="middle">Resource Provider</text>
+  
+  <rect x="655" y="170" width="125" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="717" y="190" font-family="Arial" font-size="12" text-anchor="middle">Tool Provider</text>
+  
+  <rect x="120" y="210" width="260" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="250" y="230" font-family="Arial" font-size="12" text-anchor="middle">Transport Layer</text>
+  
+  <rect x="520" y="210" width="260" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="650" y="230" font-family="Arial" font-size="12" text-anchor="middle">Transport Layer</text>
+  
+  <!-- Title -->
+  <text x="450" y="620" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">GUARDRAIL Embedded Deployment Model</text>
+</svg>

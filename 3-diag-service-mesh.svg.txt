@@ -1,0 +1,163 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 800" width="1000" height="800">
+  <!-- Background -->
+  <rect x="0" y="0" width="1000" height="800" fill="#f9f9f9"/>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">GUARDRAIL Service Mesh Deployment Model</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Distributed Security Framework with Centralized Control Plane</text>
+  
+  <!-- Client Pod -->
+  <rect x="50" y="120" width="350" height="280" rx="10" ry="10" fill="#eef2f7" stroke="#34495e" stroke-width="2"/>
+  <text x="225" y="150" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Client Pod</text>
+  <rect x="70" y="170" width="310" height="210" rx="5" ry="5" fill="#ecf0f1" stroke="#95a5a6" stroke-width="1.5" stroke-dasharray="5,5"/>
+  
+  <!-- Client Pod Components -->
+  <rect x="90" y="190" width="200" height="170" rx="5" ry="5" fill="#d5e8f9" stroke="#3498db" stroke-width="2"/>
+  <text x="190" y="215" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">MCP Client</text>
+  
+  <!-- GUARDRAIL Sidecar (Client) -->
+  <rect x="300" y="190" width="70" height="170" rx="5" ry="5" fill="#e8f4d5" stroke="#27ae60" stroke-width="2"/>
+  <text x="335" y="300" font-size="16" font-family="Arial" text-anchor="middle" transform="rotate(-90 335 300)">GUARDRAIL Sidecar</text>
+  
+  <!-- Client Internal Components -->
+  <rect x="100" y="240" width="180" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="190" y="260" font-family="Arial" font-size="12" text-anchor="middle">Request Handler</text>
+  
+  <rect x="100" y="275" width="180" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="190" y="295" font-family="Arial" font-size="12" text-anchor="middle">Notification Handler</text>
+  
+  <rect x="100" y="310" width="180" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="190" y="330" font-family="Arial" font-size="12" text-anchor="middle">Transport Layer</text>
+  
+  <!-- Server Pod -->
+  <rect x="600" y="120" width="350" height="280" rx="10" ry="10" fill="#eef2f7" stroke="#34495e" stroke-width="2"/>
+  <text x="775" y="150" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Server Pod</text>
+  <rect x="620" y="170" width="310" height="210" rx="5" ry="5" fill="#ecf0f1" stroke="#95a5a6" stroke-width="1.5" stroke-dasharray="5,5"/>
+  
+  <!-- Server Pod Components -->
+  <rect x="710" y="190" width="200" height="170" rx="5" ry="5" fill="#d5e8f9" stroke="#3498db" stroke-width="2"/>
+  <text x="810" y="215" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">MCP Server</text>
+  
+  <!-- GUARDRAIL Sidecar (Server) -->
+  <rect x="630" y="190" width="70" height="170" rx="5" ry="5" fill="#e8f4d5" stroke="#27ae60" stroke-width="2"/>
+  <text x="665" y="300" font-size="16" font-family="Arial" text-anchor="middle" transform="rotate(-90 665 300)">GUARDRAIL Sidecar</text>
+  
+  <!-- Server Internal Components -->
+  <rect x="720" y="240" width="180" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="810" y="260" font-family="Arial" font-size="12" text-anchor="middle">Resource Provider</text>
+  
+  <rect x="720" y="275" width="180" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="810" y="295" font-family="Arial" font-size="12" text-anchor="middle">Tool Provider</text>
+  
+  <rect x="720" y="310" width="180" height="30" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="810" y="330" font-family="Arial" font-size="12" text-anchor="middle">Transport Layer</text>
+  
+  <!-- Control Plane -->
+  <rect x="200" y="500" width="600" height="200" rx="10" ry="10" fill="#fef9e7" stroke="#f39c12" stroke-width="2"/>
+  <text x="500" y="530" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">GUARDRAIL Control Plane</text>
+  
+  <!-- Control Plane Components -->
+  <rect x="220" y="550" width="160" height="130" rx="5" ry="5" fill="#fcf3cf" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="300" y="575" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Policy Server</text>
+  <rect x="230" y="590" width="140" height="30" rx="3" ry="3" fill="#fdebd0" stroke="#f39c12" stroke-width="1"/>
+  <text x="300" y="610" font-family="Arial" font-size="12" text-anchor="middle">Policy Definition</text>
+  <rect x="230" y="625" width="140" height="30" rx="3" ry="3" fill="#fdebd0" stroke="#f39c12" stroke-width="1"/>
+  <text x="300" y="645" font-family="Arial" font-size="12" text-anchor="middle">Policy Distribution</text>
+  
+  <rect x="420" y="550" width="160" height="130" rx="5" ry="5" fill="#fcf3cf" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="500" y="575" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Identity Service</text>
+  <rect x="430" y="590" width="140" height="30" rx="3" ry="3" fill="#fdebd0" stroke="#f39c12" stroke-width="1"/>
+  <text x="500" y="610" font-family="Arial" font-size="12" text-anchor="middle">Authentication</text>
+  <rect x="430" y="625" width="140" height="30" rx="3" ry="3" fill="#fdebd0" stroke="#f39c12" stroke-width="1"/>
+  <text x="500" y="645" font-family="Arial" font-size="12" text-anchor="middle">Credential Management</text>
+  
+  <rect x="620" y="550" width="160" height="130" rx="5" ry="5" fill="#fcf3cf" stroke="#f39c12" stroke-width="1.5"/>
+  <text x="700" y="575" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">Audit Collector</text>
+  <rect x="630" y="590" width="140" height="30" rx="3" ry="3" fill="#fdebd0" stroke="#f39c12" stroke-width="1"/>
+  <text x="700" y="610" font-family="Arial" font-size="12" text-anchor="middle">Log Aggregation</text>
+  <rect x="630" y="625" width="140" height="30" rx="3" ry="3" fill="#fdebd0" stroke="#f39c12" stroke-width="1"/>
+  <text x="700" y="645" font-family="Arial" font-size="12" text-anchor="middle">Anomaly Detection</text>
+  
+  <!-- Sidecar Internals - Client -->
+  <rect x="302" y="195" width="65" height="32" rx="2" ry="2" fill="#d5f5e3" stroke="#27ae60" stroke-width="1"/>
+  <text x="334" y="214" font-family="Arial" font-size="9" text-anchor="middle">Inbound Filter</text>
+  
+  <rect x="302" y="230" width="65" height="32" rx="2" ry="2" fill="#d5f5e3" stroke="#27ae60" stroke-width="1"/>
+  <text x="334" y="250" font-family="Arial" font-size="9" text-anchor="middle">Flow Control</text>
+  
+  <rect x="302" y="265" width="65" height="32" rx="2" ry="2" fill="#d5f5e3" stroke="#27ae60" stroke-width="1"/>
+  <text x="334" y="285" font-family="Arial" font-size="9" text-anchor="middle">Verification</text>
+  
+  <rect x="302" y="300" width="65" height="32" rx="2" ry="2" fill="#d5f5e3" stroke="#27ae60" stroke-width="1"/>
+  <text x="334" y="320" font-family="Arial" font-size="9" text-anchor="middle">Audit Logger</text>
+  
+  <!-- Sidecar Internals - Server -->
+  <rect x="632" y="195" width="65" height="32" rx="2" ry="2" fill="#d5f5e3" stroke="#27ae60" stroke-width="1"/>
+  <text x="664" y="214" font-family="Arial" font-size="9" text-anchor="middle">Inbound Filter</text>
+  
+  <rect x="632" y="230" width="65" height="32" rx="2" ry="2" fill="#d5f5e3" stroke="#27ae60" stroke-width="1"/>
+  <text x="664" y="250" font-family="Arial" font-size="9" text-anchor="middle">Flow Control</text>
+  
+  <rect x="632" y="265" width="65" height="32" rx="2" ry="2" fill="#d5f5e3" stroke="#27ae60" stroke-width="1"/>
+  <text x="664" y="285" font-family="Arial" font-size="9" text-anchor="middle">Containment</text>
+  
+  <rect x="632" y="300" width="65" height="32" rx="2" ry="2" fill="#d5f5e3" stroke="#27ae60" stroke-width="1"/>
+  <text x="664" y="320" font-family="Arial" font-size="9" text-anchor="middle">Audit Logger</text>
+  
+  <!-- Communication Paths -->
+  <!-- Between Sidecars -->
+  <path d="M370 275 Q500 275 630 275" fill="none" stroke="#27ae60" stroke-width="3"/>
+  <polygon points="620,270 630,275 620,280" fill="#27ae60"/>
+  
+  <!-- Sidecar to Control Plane -->
+  <path d="M335 360 L335 420 Q335 460 300 500" fill="none" stroke="#f39c12" stroke-width="2" stroke-dasharray="5,3"/>
+  <path d="M665 360 L665 420 Q665 460 700 500" fill="none" stroke="#f39c12" stroke-width="2" stroke-dasharray="5,3"/>
+  
+  <!-- MCP components to Sidecars -->
+  <line x1="290" y1="275" x2="300" y2="275" stroke="#3498db" stroke-width="2"/>
+  <polygon points="290,270 300,275 290,280" fill="#3498db"/>
+  
+  <line x1="710" y1="275" x2="700" y2="275" stroke="#3498db" stroke-width="2"/>
+  <polygon points="700,270 710,275 700,280" fill="#3498db"/>
+  
+  <!-- Control Plane Components Interconnections -->
+  <line x1="380" y1="615" x2="420" y2="615" stroke="#f39c12" stroke-width="1.5"/>
+  <polygon points="410,610 420,615 410,620" fill="#f39c12"/>
+  
+  <line x1="580" y1="615" x2="620" y2="615" stroke="#f39c12" stroke-width="1.5"/>
+  <polygon points="610,610 620,615 610,620" fill="#f39c12"/>
+  
+  <!-- Kubernetes Icons -->
+  <circle cx="225" y="120" r="12" fill="#326ce5"/>
+  <text x="225" y="125" font-family="Arial" font-size="16" fill="white" text-anchor="middle">⎈</text>
+  
+  <circle cx="775" y="120" r="12" fill="#326ce5"/>
+  <text x="775" y="125" font-family="Arial" font-size="16" fill="white" text-anchor="middle">⎈</text>
+  
+  <circle cx="200" y="500" r="12" fill="#326ce5"/>
+  <text x="200" y="505" font-family="Arial" font-size="16" fill="white" text-anchor="middle">⎈</text>
+  
+  <!-- Data Flow Annotations -->
+  <circle cx="500" y="245" r="18" fill="#f9ebeb" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="500" y="250" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+  
+  <circle cx="400" y="455" r="18" fill="#f9ebeb" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="400" y="460" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">2</text>
+  
+  <circle cx="600" y="455" r="18" fill="#f9ebeb" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="600" y="460" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">3</text>
+  
+  <!-- Legend -->
+  <rect x="50" y="720" width="900" height="60" rx="5" ry="5" fill="#f8f9f9" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="80" y="745" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+  <text x="250" y="745" font-family="Arial" font-size="14" text-anchor="start">Secured Service-to-Service Communication</text>
+  
+  <text x="80" y="770" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">2</text>
+  <text x="250" y="770" font-family="Arial" font-size="14" text-anchor="start">Policy Distribution & Credential Management</text>
+  
+  <text x="550" y="745" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">3</text>
+  <text x="720" y="745" font-family="Arial" font-size="14" text-anchor="start">Centralized Audit & Monitoring</text>
+  
+  <text x="550" y="770" font-family="Arial" font-size="14" text-anchor="start" fill="#326ce5" font-weight="bold">⎈</text>
+  <text x="570" y="770" font-family="Arial" font-size="14" text-anchor="start">Kubernetes Components</text>
+</svg>

@@ -1,0 +1,159 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" width="1000" height="700">
+  <!-- Host box for MCP Client -->
+  <rect x="50" y="100" width="240" height="500" rx="10" ry="10" fill="#f0f4f8" stroke="#2c3e50" stroke-width="2"/>
+  <text x="170" y="130" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Host Application</text>
+  
+  <!-- MCP Client Box -->
+  <rect x="70" y="150" width="200" height="430" rx="5" ry="5" fill="#d5e8f9" stroke="#3498db" stroke-width="2"/>
+  <text x="170" y="180" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">MCP Client</text>
+  
+  <!-- Gateway box -->
+  <rect x="380" y="100" width="240" height="500" rx="10" ry="10" fill="#eaf7ea" stroke="#27ae60" stroke-width="2"/>
+  <text x="500" y="130" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">GUARDRAIL Gateway</text>
+  
+  <!-- MCP Server box -->
+  <rect x="710" y="100" width="240" height="500" rx="10" ry="10" fill="#f0f4f8" stroke="#2c3e50" stroke-width="2"/>
+  <text x="830" y="130" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">Server Application</text>
+  
+  <!-- MCP Server inside -->
+  <rect x="730" y="150" width="200" height="430" rx="5" ry="5" fill="#d5e8f9" stroke="#3498db" stroke-width="2"/>
+  <text x="830" y="180" font-family="Arial" font-size="18" text-anchor="middle" font-weight="bold">MCP Server</text>
+  
+  <!-- Connection arrows -->
+  <line x1="270" y1="350" x2="380" y2="350" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+  <polygon points="370,345 380,350 370,355" fill="#3498db"/>
+  <text x="325" y="330" font-family="Arial" font-size="14" text-anchor="middle">MCP Protocol</text>
+  
+  <line x1="620" y1="350" x2="710" y2="350" stroke="#3498db" stroke-width="3" stroke-dasharray="5,5"/>
+  <polygon points="700,345 710,350 700,355" fill="#3498db"/>
+  <text x="665" y="330" font-family="Arial" font-size="14" text-anchor="middle">MCP Protocol</text>
+  
+  <!-- GUARDRAIL Gateway Layers -->
+  <rect x="390" y="160" width="220" height="50" rx="3" ry="3" fill="#d5f5e3" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="500" y="190" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Client Proxy</text>
+  
+  <rect x="390" y="215" width="220" height="50" rx="3" ry="3" fill="#d5f5e3" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="500" y="245" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Server Proxy</text>
+  
+  <rect x="390" y="290" width="220" height="40" rx="5" ry="5" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="500" y="315" font-family="Arial" font-size="14" text-anchor="middle">Information Gateway Layer</text>
+  
+  <rect x="390" y="335" width="220" height="40" rx="5" ry="5" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="500" y="360" font-family="Arial" font-size="14" text-anchor="middle">Context Verification Layer</text>
+  
+  <rect x="390" y="380" width="220" height="40" rx="5" ry="5" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="500" y="405" font-family="Arial" font-size="14" text-anchor="middle">Request Control Layer</text>
+  
+  <rect x="390" y="425" width="220" height="40" rx="5" ry="5" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="500" y="450" font-family="Arial" font-size="14" text-anchor="middle">Execution Containment Layer</text>
+  
+  <rect x="390" y="470" width="220" height="40" rx="5" ry="5" fill="#f9ecdb" stroke="#e67e22" stroke-width="1.5"/>
+  <text x="500" y="495" font-family="Arial" font-size="14" text-anchor="middle">Audit and Monitoring Layer</text>
+  
+  <rect x="390" y="515" width="220" height="65" rx="5" ry="5" fill="#d5f5e3" stroke="#27ae60" stroke-width="1.5"/>
+  <text x="500" y="540" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">Policy Engine</text>
+  <line x1="400" y1="550" x2="600" y2="550" stroke="#27ae60" stroke-width="1"/>
+  <text x="500" y="565" font-family="Arial" font-size="12" text-anchor="middle">Security Configuration Store</text>
+  
+  <!-- MCP Client Internals -->
+  <rect x="90" y="210" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="170" y="235" font-family="Arial" font-size="14" text-anchor="middle">Request Handler</text>
+  
+  <rect x="90" y="255" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="170" y="280" font-family="Arial" font-size="14" text-anchor="middle">Notification Handler</text>
+  
+  <rect x="90" y="300" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="170" y="325" font-family="Arial" font-size="14" text-anchor="middle">Message Formatter</text>
+  
+  <rect x="90" y="345" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="170" y="370" font-family="Arial" font-size="14" text-anchor="middle">Transport Layer</text>
+  
+  <rect x="90" y="390" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="170" y="415" font-family="Arial" font-size="14" text-anchor="middle">Client API</text>
+  
+  <rect x="90" y="435" width="160" height="125" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="170" y="460" font-family="Arial" font-size="14" text-anchor="middle">Resource Management</text>
+  <line x1="100" y1="470" x2="240" y2="470" stroke="#3498db" stroke-width="1"/>
+  <text x="170" y="490" font-family="Arial" font-size="12" text-anchor="middle">Document Provider</text>
+  <text x="170" y="515" font-family="Arial" font-size="12" text-anchor="middle">Tool Consumer</text>
+  <text x="170" y="540" font-family="Arial" font-size="12" text-anchor="middle">Context Manager</text>
+  
+  <!-- MCP Server Internals -->
+  <rect x="750" y="210" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="830" y="235" font-family="Arial" font-size="14" text-anchor="middle">Request Handler</text>
+  
+  <rect x="750" y="255" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="830" y="280" font-family="Arial" font-size="14" text-anchor="middle">Notification Handler</text>
+  
+  <rect x="750" y="300" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="830" y="325" font-family="Arial" font-size="14" text-anchor="middle">Message Formatter</text>
+  
+  <rect x="750" y="345" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="830" y="370" font-family="Arial" font-size="14" text-anchor="middle">Transport Layer</text>
+  
+  <rect x="750" y="390" width="160" height="40" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="830" y="415" font-family="Arial" font-size="14" text-anchor="middle">Server API</text>
+  
+  <rect x="750" y="435" width="160" height="125" rx="3" ry="3" fill="#c4e0f5" stroke="#3498db" stroke-width="1.5"/>
+  <text x="830" y="460" font-family="Arial" font-size="14" text-anchor="middle">Resource Management</text>
+  <line x1="760" y1="470" x2="900" y2="470" stroke="#3498db" stroke-width="1"/>
+  <text x="830" y="490" font-family="Arial" font-size="12" text-anchor="middle">Resource Provider</text>
+  <text x="830" y="515" font-family="Arial" font-size="12" text-anchor="middle">Tool Provider</text>
+  <text x="830" y="540" font-family="Arial" font-size="12" text-anchor="middle">Model Interface</text>
+  
+  <!-- Data flow arrows for GUARDRAIL layers -->
+  <line x1="460" y1="265" x2="460" y2="290" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="455,280 460,290 465,280" fill="#27ae60"/>
+  
+  <line x1="540" y1="265" x2="540" y2="290" stroke="#27ae60" stroke-width="1.5" stroke-dasharray="5,3"/>
+  <polygon points="535,280 540,290 545,280" fill="#27ae60"/>
+  
+  <line x1="500" y1="330" x2="500" y2="335" stroke="#27ae60" stroke-width="1.5"/>
+  <polygon points="495,325 500,335 505,325" fill="#27ae60"/>
+  
+  <line x1="500" y1="375" x2="500" y2="380" stroke="#27ae60" stroke-width="1.5"/>
+  <polygon points="495,370 500,380 505,370" fill="#27ae60"/>
+  
+  <line x1="500" y1="420" x2="500" y2="425" stroke="#27ae60" stroke-width="1.5"/>
+  <polygon points="495,415 500,425 505,415" fill="#27ae60"/>
+  
+  <line x1="500" y1="465" x2="500" y2="470" stroke="#27ae60" stroke-width="1.5"/>
+  <polygon points="495,460 500,470 505,460" fill="#27ae60"/>
+  
+  <line x1="500" y1="510" x2="500" y2="515" stroke="#27ae60" stroke-width="1.5"/>
+  <polygon points="495,505 500,515 505,505" fill="#27ae60"/>
+  
+  <!-- Vertical lines connecting all layers to policy engine -->
+  <line x1="400" y1="275" x2="390" y2="275" stroke="#27ae60" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="390" y1="275" x2="390" y2="540" stroke="#27ae60" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="390" y1="540" x2="400" y2="540" stroke="#27ae60" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <line x1="600" y1="275" x2="610" y2="275" stroke="#27ae60" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="610" y1="275" x2="610" y2="540" stroke="#27ae60" stroke-width="1" stroke-dasharray="3,2"/>
+  <line x1="610" y1="540" x2="600" y2="540" stroke="#27ae60" stroke-width="1" stroke-dasharray="3,2"/>
+  
+  <!-- Additional security annotations -->
+  <circle cx="325" y="330" r="18" fill="#f9ebeb" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="325" y="335" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">1</text>
+  
+  <circle cx="665" y="330" r="18" fill="#f9ebeb" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="665" y="335" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">3</text>
+  
+  <circle cx="500" y="270" r="18" fill="#f9ebeb" stroke="#e74c3c" stroke-width="1.5"/>
+  <text x="500" y="275" font-family="Arial" font-size="16" text-anchor="middle" font-weight="bold">2</text>
+  
+  <!-- Legend -->
+  <rect x="50" y="620" width="900" height="60" rx="5" ry="5" fill="#f8f9f9" stroke="#7f8c8d" stroke-width="1"/>
+  <text x="100" y="645" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">1</text>
+  <text x="250" y="645" font-family="Arial" font-size="14" text-anchor="start">Inbound Traffic Inspection & Classification</text>
+  
+  <text x="100" y="670" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">2</text>
+  <text x="250" y="670" font-family="Arial" font-size="14" text-anchor="start">Security Policy Enforcement & Content Transformation</text>
+  
+  <text x="510" y="645" font-family="Arial" font-size="14" text-anchor="middle" font-weight="bold">3</text>
+  <text x="660" y="645" font-family="Arial" font-size="14" text-anchor="start">Outbound Traffic Control & Data Flow Protection</text>
+  
+  <!-- Title -->
+  <text x="500" y="40" font-family="Arial" font-size="24" text-anchor="middle" font-weight="bold">GUARDRAIL Gateway Deployment Model</text>
+  <text x="500" y="70" font-family="Arial" font-size="16" text-anchor="middle" font-style="italic">Standalone Security Gateway for MCP Traffic</text>
+</svg>
