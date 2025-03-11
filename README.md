@@ -676,40 +676,33 @@ flowchart TB
 The following diagrams provide visual representations of GUARDRAIL's architecture, deployment models, and internal components:
 
 - **Embedded Deployment Model:**
-  ![Embedded Deployment Model](svgImages/6.png)
+  ![Embedded Deployment Model](svgImages/3-EmbeddedDeploymentModel.png)
 
 - **Gateway Deployment Model:**
-  ![Gateway Deployment Model](svgImages/8.png)
+  ![Gateway Deployment Model](svgImages/4-GatewayDeploymentModel.png)
 
-- **Gateway Internal Architecture:**
-    ![Gateway Internal Architecture](svgImages/9.png)
+- **Service Mesh Deployment Model:**
+    ![Gateway Deployment Model](svgImages/5-ServiceMeshDeploymentModel.png)
 
-- **Service Mesh Deployment Model (First Instance):**
-   ![Service Mesh Deployment Model](svgImages/3.png)
+- **Gateway - Internal Architecture:**
+    ![Service - Internal Architecture:**](svgImages/6-Gateway-InternalArchitecture.png)
 
-- **Service Mesh Deployment Model (Duplicate Instance):**
-      ![Service Mesh Deployment Model](svgImages/7.png)
 
-- **Gateway Deployment Model (Duplicate Instance):**
-        ![Gateway Deployment Model](svgImages/5.png)
 
-- **Gateway Internal Architecture (Duplicate instance):**
-        ![Gateway Internal Architecture](svgImages/4.png)
+- **Gateway - 19" Rack Appliance**
+  ![Gateway - 19" Rack Appliance](svgImages/10-Gateway-RackAppliance.png)
 
-- **Gateway Data Flow Architecture:**
-  ![Gateway Data Flow Architecture](svgImages/10.png)
+- **Gateway - Data Flow Architecture:**
+  ![Gateway - Data Flow Architecture](svgImages/11-Gateway-DataFlowArchitecture.png)
 
-- **Gateway 19" Rack Appliance Interface:**
-  ![Gateway 19 Rack Appliance Interface](svgImages/11.png)
+- **Service Mesh - Containerized Architecture:**
+  ![Service Mesh - Containerized Architecture](svgImages/12-ServiceMesh-ContainerizedArchitecture.png)
 
-- **Sidecar Internal Architecture:**
-  ![Sidecar Internal Architecture](svgImages/12.png)
+- **Service Mesh Sidecar - Internal Architecture:**
+  ![Service Mesh Sidecar - Internal Architecture](svgImages/13-ServiceMesh-Sidecar-InternalArchitecture.png)
 
-- **Service Mesh Containerized Architecture:**
-  ![Service Mesh Containerized Architecture](svgImages/13.png)
-
-- **Service Mesh Control Plane Architecture:**
-  ![Service Mesh Control Plane Architecture](svgImages/14.png)
+- **Service Mesh - Control Plane Architecture:**
+  ![Service Mesh - Control Plane Architecture](svgImages/14-ServiceMesh-ControlPlaneArchitcture.png)
 
 ## 8. Detailed Documentation <a name="detailed-documentation"></a>
 
