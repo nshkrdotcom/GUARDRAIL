@@ -544,7 +544,7 @@ flowchart TB
 ### 6.10 Regulatory Compliance Framework <a name="regulatory-compliance-framework"></a>
  Integrates compliance features, data loss prevention, and backup/recovery.
 ```mermaid
-flowchart LR
+flowchart TB
     subgraph "Regulatory Compliance Framework"
         direction TB
         
@@ -682,12 +682,10 @@ The following diagrams provide visual representations of GUARDRAIL's architectur
   ![Gateway Deployment Model](svgImages/4-GatewayDeploymentModel.png)
 
 - **Service Mesh Deployment Model:**
-    ![Gateway Deployment Model](svgImages/5-ServiceMeshDeploymentModel.png)
+  ![Gateway Deployment Model](svgImages/5-ServiceMeshDeploymentModel.png)
 
 - **Gateway - Internal Architecture:**
-    ![Service - Internal Architecture:**](svgImages/6-Gateway-InternalArchitecture.png)
-
-
+  ![Service - Internal Architecture:**](svgImages/6-Gateway-InternalArchitecture.png)
 
 - **Gateway - 19" Rack Appliance**
   ![Gateway - 19" Rack Appliance](svgImages/10-Gateway-RackAppliance.png)
