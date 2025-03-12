@@ -130,7 +130,7 @@ Instead of full GUARDRAIL implementation, consider:
 
 ## Conclusion
 
-GUARDRAIL offers an academically interesting approach to LLM security but may overcomplicate what are often straightforward security challenges. Sometimes putting on the condom (basic isolation), handling credentials properly, and following established HTTP security practices will deliver more real security value than implementing complex architectural frameworks.
+GUARDRAIL offers an academically interesting approach to LLM security but may overcomplicate what are often straightforward security challenges. Sometimes basic isolation, handling credentials properly, and following established HTTP security practices will deliver more real security value than implementing complex architectural frameworks.
 
 The gap between security theory and practice remains wide, and addressing fundamental developer security knowledge will likely yield better outcomes than adding architectural complexity through comprehensive frameworks like GUARDRAIL.
 
