@@ -1,5 +1,59 @@
 # GUARDRAIL: Security Framework for Large Language Model Applications
 
+# Application Security Onion
+
+![Application Security Onion Diagram](AppSecOnion.png)
+
+## Overview
+
+The Application Security Onion diagram visualizes the layered security concerns that modern applications face, with a particular focus on how newer LLM (Large Language Model) and Agent-based systems build upon traditional security foundations.
+
+## Understanding the Layers
+
+Like an onion, application security consists of multiple layers that must all be addressed for comprehensive protection:
+
+### Layer 1: Traditional Web Security (Outer Layer)
+The foundation of all application security, covering fundamental concerns like authentication, authorization, input validation, and transport security. These are well-established practices that remain essential regardless of application type.
+
+### Layer 2: Data & Infrastructure Security
+Building on basic web security, this layer addresses how data is stored, processed, and transported across infrastructure components. This includes database security, container protection, network segmentation, and dependency management.
+
+### Layer 3: LLM Application Security
+Specific security concerns for applications that leverage large language models. This newer domain includes protections against prompt injection, jailbreaking attempts, output sanitization, and preventing data leakage through model interactions.
+
+### Layer 4: Agent & MCP Security (Core)
+At the center are emerging security concerns specific to autonomous agents and the Model Context Protocol (MCP). This includes message classification, context verification, trust scoring, and flow control between agent components.
+
+## Applications
+
+The Application Security Onion can be used to:
+
+- Assess security coverage across different domains
+- Identify gaps in security planning
+- Prioritize security initiatives based on foundational requirements
+- Educate teams on the relationship between traditional and emerging security concerns
+- Create security checklists that ensure all layers are addressed
+
+## Implementation Guidance
+
+When approaching application security, work from the outside in:
+
+1. Ensure traditional web security controls are robust and well-implemented
+2. Address data and infrastructure security concerns
+3. Implement LLM-specific protections as needed
+4. Apply agent and MCP-specific security controls at the core
+
+Remember that inner layers depend on outer layers - LLM application security measures will be undermined if traditional web security elements like authentication are weak.
+
+## Contributing
+
+This model is evolving as security practices for LLM applications and agents mature. Contributions and suggestions for improving the Application Security Onion are welcome.
+
+---
+
+_The Application Security Onion diagram is licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Feel free to share and adapt with attribution._
+
+
 # Practical Security vs. Framework Complexity: The GUARDRAIL Reality Check
 
 ## 1. Isolation vs. Framework Complexity
@@ -107,6 +161,16 @@ GUARDRAIL is currently in active development. This repository contains the archi
 ## Table of Contents
 
 - [GUARDRAIL: Security Framework for Large Language Model Applications](#guardrail-security-framework-for-large-language-model-applications)
+- [Application Security Onion](#application-security-onion)
+  - [Overview](#overview)
+  - [Understanding the Layers](#understanding-the-layers)
+    - [Layer 1: Traditional Web Security (Outer Layer)](#layer-1-traditional-web-security-outer-layer)
+    - [Layer 2: Data \& Infrastructure Security](#layer-2-data--infrastructure-security)
+    - [Layer 3: LLM Application Security](#layer-3-llm-application-security)
+    - [Layer 4: Agent \& MCP Security (Core)](#layer-4-agent--mcp-security-core)
+  - [Applications](#applications)
+  - [Implementation Guidance](#implementation-guidance)
+  - [Contributing](#contributing)
 - [Practical Security vs. Framework Complexity: The GUARDRAIL Reality Check](#practical-security-vs-framework-complexity-the-guardrail-reality-check)
   - [1. Isolation vs. Framework Complexity](#1-isolation-vs-framework-complexity)
   - [2. The Credential Security Gap](#2-the-credential-security-gap)
