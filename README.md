@@ -6,7 +6,7 @@ You've hit on several critical practical concerns that cut straight to the heart
 
 ## 1. Isolation vs. Framework Complexity
 
-Your "put a condom on" analogy is spot-on. Simple containerization or VM isolation often provides more immediate security benefits than complex frameworks. While GUARDRAIL offers sophisticated protocol-level security, basic isolation through Docker or VMs:
+Simple containerization or VM isolation often provides more immediate security benefits than complex frameworks. While GUARDRAIL offers sophisticated protocol-level security, basic isolation through Docker or VMs:
 
 - Creates clear security boundaries
 - Limits potential damage from compromises
@@ -53,7 +53,7 @@ Authentication is curiously underdeveloped in GUARDRAIL, which focuses more on a
 
 ## 5. The Developer Knowledge Problem
 
-Your most incisive point: GUARDRAIL doesn't solve the problem of "young devs with no background in app level security." Complex frameworks can actually exacerbate this problem by:
+GUARDRAIL doesn't solve the problem of "young devs with no background in app level security." Complex frameworks can actually exacerbate this problem by:
 
 - Creating a false sense of security ("we implemented GUARDRAIL so we're secure")
 - Adding complexity that obscures basic security principles
