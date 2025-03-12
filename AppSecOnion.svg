@@ -13,9 +13,9 @@
   <!-- Traditional Security Elements -->
   <g font-family="Arial" font-size="8" fill="#495057">
     <!-- Top Right Quadrant -->
-    <text x="570" y="230" text-anchor="middle">Authentication</text>
+    <text x="580" y="230" text-anchor="middle">Authentication</text>
     <text x="620" y="270" text-anchor="middle">Authorization</text>
-    <text x="650" y="330" text-anchor="middle">Input Validation</text>
+    <text x="655" y="330" text-anchor="middle">Input Validation</text>
     <text x="675" y="390" text-anchor="middle">Session Management</text>
     
     <!-- Bottom Right Quadrant -->
@@ -31,9 +31,9 @@
     <text x="130" y="480" text-anchor="middle">Logging / Monitoring</text>
     
     <!-- Top Left Quadrant -->
-    <text x="150" y="330" text-anchor="middle">API Security</text>
+    <text x="145" y="330" text-anchor="middle">API Security</text>
     <text x="180" y="270" text-anchor="middle">Secret Management</text>
-    <text x="230" y="230" text-anchor="middle">Access Control</text>
+    <text x="220" y="230" text-anchor="middle">Access Control</text>
     <text x="290" y="200" text-anchor="middle">Data Encryption</text>
   </g>
   
@@ -51,9 +51,9 @@
     <text x="460" y="490" text-anchor="middle">Cloud Security Posture</text>
     <text x="400" y="520" text-anchor="middle">Infrastructure as Code Security</text>
     <text x="320" y="490" text-anchor="middle">WAF / RASP</text>
-    <text x="230" y="430" text-anchor="middle">Dependency Security</text>
+    <text x="225" y="430" text-anchor="middle">Dependency Security</text>
     <text x="240" y="370" text-anchor="middle">Secrets Management</text>
-    <text x="300" y="310" text-anchor="middle">Identity Management</text>
+    <text x="280" y="310" text-anchor="middle">Identity Management</text>
   </g>
   
   <!-- Inner Layer: LLM Application Security -->
@@ -72,7 +72,7 @@
     <text x="400" y="470" text-anchor="middle">Content Moderation</text>
     <text x="305" y="440" text-anchor="middle">Token Usage Controls</text>
     <text x="310" y="400" text-anchor="middle">Model Authentication</text>
-    <text x="350" y="360" text-anchor="middle">Jailbreak Detection</text>
+    <text x="340" y="360" text-anchor="middle">Jailbreak Detection</text>
   </g>
   
   <!-- Core: Agent  MCP Security -->
@@ -97,15 +97,15 @@
   <rect x="100" y="700" width="600" height="80" rx="5" ry="5" fill="white" stroke="#adb5bd" stroke-width="1"/>
   
   <!-- Legend items -->
-  <circle cx="120" cy="720" r="10" fill="#e9ecef" stroke="#adb5bd" stroke-width="1"/>
-  <text x="140" y="722" font-family="Arial" font-size="7" fill="#495057">Traditional Web Security (Authentication, Authorization, Input Validation...)</text>
+  <circle cx="120" cy="725" r="10" fill="#e9ecef" stroke="#adb5bd" stroke-width="1"/>
+  <text x="140" y="727" font-family="Arial" font-size="7" fill="#495057">Traditional Web Security (Authentication, Authorization, Input Validation...)</text>
   
-  <circle cx="120" cy="750" r="10" fill="#d0ebff" stroke="#4dabf7" stroke-width="1"/>
-  <text x="140" y="752" font-family="Arial" font-size="7" fill="#1971c2">Data and Infrastructure Security (Database, Network, Cloud...)</text>
+  <circle cx="120" cy="755" r="10" fill="#d0ebff" stroke="#4dabf7" stroke-width="1"/>
+  <text x="140" y="757" font-family="Arial" font-size="7" fill="#1971c2">Data and Infrastructure Security (Database, Network, Cloud...)</text>
   
-  <circle cx="420" cy="720" r="10" fill="#d3f9d8" stroke="#37b24d" stroke-width="1"/>
-  <text x="440" y="722" font-family="Arial" font-size="7" fill="#2b8a3e">LLM Application Security (Prompt Injection, Output Sanitization...)</text>
+  <circle cx="420" cy="725" r="10" fill="#d3f9d8" stroke="#37b24d" stroke-width="1"/>
+  <text x="440" y="727" font-family="Arial" font-size="7" fill="#2b8a3e">LLM Application Security (Prompt Injection, Output Sanitization...)</text>
   
-  <circle cx="420" cy="750" r="10" fill="#ffe8cc" stroke="#fd7e14" stroke-width="1"/>
-  <text x="440" y="752" font-family="Arial" font-size="7" fill="#e8590c">Agent and MCP Security (Message Classification, Context Verification...)</text>
+  <circle cx="420" cy="755" r="10" fill="#ffe8cc" stroke="#fd7e14" stroke-width="1"/>
+  <text x="440" y="757" font-family="Arial" font-size="7" fill="#e8590c">Agent and MCP Security (Message Classification, Context Verification...)</text>
 </svg>
