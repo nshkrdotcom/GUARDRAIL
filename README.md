@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/nshkrdotcom-guardrail-badge.png)](https://mseep.ai/app/nshkrdotcom-guardrail)
+
 # GUARDRAIL: Security Framework for Large Language Model Applications
 
 # Application Security Onion
